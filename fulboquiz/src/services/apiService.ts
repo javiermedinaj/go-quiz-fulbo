@@ -82,7 +82,6 @@ class ApiService {
     }
 
     try {
-      console.log(`Fetching: ${fullUrl}`);
       const response = await fetch(fullUrl);
       
       if (!response.ok) {
@@ -279,17 +278,6 @@ class ApiService {
       // Mezclar el array final
       const finalPlayers = selectedPlayers.sort(() => 0.5 - Math.random());
       
-      console.log(`Loaded ${finalPlayers.length} players for quiz/bingo`);
-      console.log('Categories distribution:', {
-        england: finalPlayers.filter(p => p.nationality?.toLowerCase() === 'england').length,
-        spain: finalPlayers.filter(p => p.nationality?.toLowerCase() === 'spain').length,
-        france: finalPlayers.filter(p => p.nationality?.toLowerCase() === 'france').length,
-        realMadrid: finalPlayers.filter(p => p.team?.toLowerCase().includes('real madrid')).length,
-        barcelona: finalPlayers.filter(p => p.team?.toLowerCase().includes('barcelona')).length,
-        young: finalPlayers.filter(p => !isNaN(parseInt(p.age)) && parseInt(p.age) < 25).length,
-        veteran: finalPlayers.filter(p => !isNaN(parseInt(p.age)) && parseInt(p.age) > 30).length
-      });
-
       return finalPlayers;
     } catch (error) {
       console.error('Error getting random players:', error);

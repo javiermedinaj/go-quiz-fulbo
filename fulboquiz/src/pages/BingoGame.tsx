@@ -142,8 +142,6 @@ const BingoGame = () => {
         throw new Error('No se encontraron jugadores válidos');
       }
       
-      console.log(`Loaded ${validPlayers.length} valid players for bingo`);
-      
       // Mezclar jugadores
       const shuffledPlayers = validPlayers.sort(() => 0.5 - Math.random());
       setPlayerQueue(shuffledPlayers);
