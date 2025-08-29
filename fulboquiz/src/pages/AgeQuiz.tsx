@@ -141,13 +141,14 @@ const AgeQuiz = () => {
     }, 2000);
   };
 
-  const nextQuestion = () => {
-    if (questionsAnswered >= totalQuestions) {
-      setGameFinished(true);
-      return;
-    }
-    loadQuestion();
-  };
+  // Función para siguiente pregunta (se mantiene para compatibilidad futura)
+  // const nextQuestion = () => {
+  //   if (questionsAnswered >= totalQuestions) {
+  //     setGameFinished(true);
+  //     return;
+  //   }
+  //   loadQuestion();
+  // };
 
   const restartGame = () => {
     setScore(0);
