@@ -1,5 +1,5 @@
 # Usar la imagen oficial de Go
-FROM golang:1.21-alpine AS builder
+FROM golang:1.24-alpine AS builder
 
 # Instalar git (necesario para algunas dependencias)
 RUN apk add --no-cache git
@@ -7,8 +7,8 @@ RUN apk add --no-cache git
 # Establecer directorio de trabajo
 WORKDIR /app
 
-# Copiar go.mod y go.sum
-COPY go.mod go.sum ./
+# Copiar go.mod (go.sum se genera automáticamente)
+COPY go.mod ./
 RUN go mod download
 
 # Copiar el código fuente del backend
