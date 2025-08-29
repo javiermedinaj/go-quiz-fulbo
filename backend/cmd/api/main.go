@@ -56,22 +56,22 @@ func main() {
 	// Endpoint raíz de la API
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "🏆 API de Fulbo Quiz ⚽",
-			"version": "1.0.0",
+			"message":     "🏆 API de Fulbo Quiz ⚽",
+			"version":     "1.0.0",
 			"description": "API para quiz de fútbol con datos de jugadores de las principales ligas europeas",
-			"status": "active",
+			"status":      "active",
 			"endpoints": gin.H{
 				"teams": gin.H{
-					"url": "/api/get/{league}/{team}.json",
+					"url":         "/api/get/{league}/{team}.json",
 					"description": "Obtener jugadores de un equipo específico",
 				},
 			},
 			"leagues": gin.H{
-				"premier": "Premier League (Inglaterra)",
-				"laligaes": "La Liga (España)", 
+				"premier":    "Premier League (Inglaterra)",
+				"laligaes":   "La Liga (España)",
 				"bundesliga": "Bundesliga (Alemania)",
-				"seriea": "Serie A (Italia)",
-				"ligue1": "Ligue 1 (Francia)",
+				"seriea":     "Serie A (Italia)",
+				"ligue1":     "Ligue 1 (Francia)",
 			},
 			"examples": []string{
 				"/api/get/premier/manchester-city.json",
