@@ -1,0 +1,330 @@
+{
+  "players": [
+    {
+      "id": "108390",
+      "name": "Thibaut Courtois",
+      "number": "1",
+      "age": "33",
+      "nationalities": [
+        "Bélgica"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/108390-1717280733.jpg?lm=1"
+    },
+    {
+      "id": "404839",
+      "name": "Andriy Lunin",
+      "number": "13",
+      "age": "26",
+      "nationalities": [
+        "Ucrania"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "18,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/177.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/404839-1701294131.jpg?lm=1"
+    },
+    {
+      "id": "59016",
+      "name": "David Alaba",
+      "number": "4",
+      "age": "33",
+      "nationalities": [
+        "Austria"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/127.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/59016-1684921582.jpeg?lm=1"
+    },
+    {
+      "id": "341264",
+      "name": "Fran García",
+      "number": "20",
+      "age": "26",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "18,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/341264-1688119965.jpg?lm=1"
+    },
+    {
+      "id": "138927",
+      "name": "Daniel Carvajal",
+      "number": "2",
+      "age": "33",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/138927-1721026790.jpg?lm=1"
+    },
+    {
+      "id": "369081",
+      "name": "Federico Valverde",
+      "number": "8",
+      "age": "27",
+      "nationalities": [
+        "Uruguay"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "130,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/179.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/369081-1731018042.jpg?lm=1"
+    },
+    {
+      "id": "640428",
+      "name": "Eduardo Camavinga",
+      "number": "6",
+      "age": "22",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "60,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/640428-1668500874.jpg?lm=1"
+    },
+    {
+      "id": "581678",
+      "name": "Jude Bellingham",
+      "number": "5",
+      "age": "22",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "180,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/581678-1748102891.jpg?lm=1"
+    },
+    {
+      "id": "935245",
+      "name": "Raúl Asencio",
+      "number": "17",
+      "age": "22",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "40,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/935245-1731168094.jpg?lm=1"
+    },
+    {
+      "id": "811778",
+      "name": "Álvaro Carreras",
+      "number": "18",
+      "age": "22",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2031",
+      "market_value": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/811778-1737497415.jpg?lm=1"
+    },
+    {
+      "id": "861410",
+      "name": "Arda Güler",
+      "number": "15",
+      "age": "20",
+      "nationalities": [
+        "Turquía"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "45,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/174.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/861410-1699472585.jpg?lm=1"
+    },
+    {
+      "id": "1057316",
+      "name": "Franco Mastantuono",
+      "number": "30",
+      "age": "18",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30/06/2031",
+      "market_value": "30,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1057316-1755702696.jpg?lm=1"
+    },
+    {
+      "id": "342229",
+      "name": "Kylian Mbappé",
+      "number": "10",
+      "age": "26",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "180,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/342229-1682683695.jpg?lm=1"
+    },
+    {
+      "id": "401530",
+      "name": "Éder Militão",
+      "number": "3",
+      "age": "27",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "30,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/401530-1719653438.jpg?lm=1"
+    },
+    {
+      "id": "291417",
+      "name": "Ferland Mendy",
+      "number": "23",
+      "age": "30",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "14,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/291417-1701294025.jpg?lm=1"
+    },
+    {
+      "id": "319745",
+      "name": "Dani Ceballos",
+      "number": "19",
+      "age": "29",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/319745-1723666162.jpg?lm=1"
+    },
+    {
+      "id": "412363",
+      "name": "Rodrygo",
+      "number": "11",
+      "age": "24",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "90,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/412363-1746183850.jpg?lm=1"
+    },
+    {
+      "id": "935230",
+      "name": "Gonzalo García",
+      "number": "16",
+      "age": "21",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/935230-1701294395.jpg?lm=1"
+    },
+    {
+      "id": "890290",
+      "name": "Dean Huijsen",
+      "number": "24",
+      "age": "20",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "60,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/890290-1750251451.jpg?lm=1"
+    },
+    {
+      "id": "86202",
+      "name": "Antonio Rüdiger",
+      "number": "22",
+      "age": "32",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/86202-1684484602.jpg?lm=1"
+    },
+    {
+      "id": "314353",
+      "name": "Trent Alexander-Arnold",
+      "number": "12",
+      "age": "26",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "30/06/2031",
+      "market_value": "75,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/314353-1701680958.jpg?lm=1"
+    },
+    {
+      "id": "413112",
+      "name": "Aurélien Tchouaméni",
+      "number": "14",
+      "age": "25",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "75,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/413112-1668500754.jpg?lm=1"
+    },
+    {
+      "id": "371998",
+      "name": "Vinicius Junior",
+      "number": "7",
+      "age": "25",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "170,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/371998-1664869583.jpg?lm=1"
+    },
+    {
+      "id": "314678",
+      "name": "Brahim Díaz",
+      "number": "21",
+      "age": "26",
+      "nationalities": [
+        "Marruecos"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "40,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/107.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/314678-1744193327.jpg?lm=1"
+    },
+    {
+      "id": "971570",
+      "name": "Endrick",
+      "number": "9",
+      "age": "19",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/971570-1723665994.jpg?lm=1"
+    }
+  ],
+  "team": "real-madrid"
+}

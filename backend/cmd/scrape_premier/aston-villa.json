@@ -1,0 +1,278 @@
+{
+  "players": [
+    {
+      "id": "399776",
+      "name": "Pau Torres",
+      "number": "14",
+      "age": "28",
+      "nationalities": [
+        "Spain"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€32.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/399776-1691079911.jpg?lm=1"
+    },
+    {
+      "id": "253677",
+      "name": "Tyrone Mings",
+      "number": "5",
+      "age": "32",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€5.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/253677-1746644991.jpg?lm=1"
+    },
+    {
+      "id": "193116",
+      "name": "John McGinn",
+      "number": "7",
+      "age": "30",
+      "nationalities": [
+        "Scotland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€16.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/190.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/193116-1689172405.jpg?lm=1"
+    },
+    {
+      "id": "503743",
+      "name": "Morgan Rogers",
+      "number": "27",
+      "age": "23",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€55.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/503743-1706786450.jpg?lm=1"
+    },
+    {
+      "id": "581672",
+      "name": "Samuel Iling-Junior",
+      "number": "19",
+      "age": "21",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "-",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/581672-1730183382.jpg?lm=1"
+    },
+    {
+      "id": "500689",
+      "name": "Evann Guessand",
+      "number": "29",
+      "age": "24",
+      "nationalities": [
+        "Cote d'Ivoire"
+      ],
+      "contract": "-",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/500689-1739972437.jpg?lm=1"
+    },
+    {
+      "id": "124884",
+      "name": "Marco Bizot",
+      "number": "40",
+      "age": "34",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/124884-1707302509.jpg?lm=1"
+    },
+    {
+      "id": "126664",
+      "name": "Lucas Digne",
+      "number": "12",
+      "age": "32",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/126664-1736160616.jpg?lm=1"
+    },
+    {
+      "id": "425334",
+      "name": "Matty Cash",
+      "number": "2",
+      "age": "28",
+      "nationalities": [
+        "Poland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/135.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/425334-1668091733.jpg?lm=1"
+    },
+    {
+      "id": "249565",
+      "name": "Youri Tielemans",
+      "number": "8",
+      "age": "28",
+      "nationalities": [
+        "Belgium"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€38.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/249565-1716886438.jpg?lm=1"
+    },
+    {
+      "id": "131978",
+      "name": "Ross Barkley",
+      "number": "6",
+      "age": "31",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€6.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/131978-1662368517.jpg?lm=1"
+    },
+    {
+      "id": "326029",
+      "name": "Donyell Malen",
+      "number": "17",
+      "age": "26",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "-",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/326029-1711746104.jpg?lm=1"
+    },
+    {
+      "id": "645686",
+      "name": "Lamare Bogarde",
+      "number": "26",
+      "age": "21",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "-",
+      "market_value": "€6.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/645686-1724484880.jpg?lm=1"
+    },
+    {
+      "id": "1063329",
+      "name": "Andrés García",
+      "number": "16",
+      "age": "22",
+      "nationalities": [
+        "Spain"
+      ],
+      "contract": "-",
+      "market_value": "€7.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1063329-1698880585.jpg?lm=1"
+    },
+    {
+      "id": "394327",
+      "name": "Boubacar Kamara",
+      "number": "44",
+      "age": "25",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€40.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/394327-1736160460.jpg?lm=1"
+    },
+    {
+      "id": "324358",
+      "name": "Ollie Watkins",
+      "number": "11",
+      "age": "29",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€40.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/324358-1708341279.jpg?lm=1"
+    },
+    {
+      "id": "485585",
+      "name": "Ian Maatsen",
+      "number": "22",
+      "age": "23",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€28.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/485585-1704795222.jpg?lm=1"
+    },
+    {
+      "id": "485706",
+      "name": "Amadou Onana",
+      "number": "24",
+      "age": "24",
+      "nationalities": [
+        "Belgium"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€50.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/485706-1718697649.jpg?lm=1"
+    },
+    {
+      "id": "321247",
+      "name": "Emiliano Buendía",
+      "number": "10",
+      "age": "28",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€15.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/321247-1696604099.jpg?lm=1"
+    },
+    {
+      "id": "111873",
+      "name": "Emiliano Martínez",
+      "number": "23",
+      "age": "32",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/111873-1668180824.jpg?lm=1"
+    },
+    {
+      "id": "413403",
+      "name": "Ezri Konsa",
+      "number": "4",
+      "age": "27",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€35.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/413403-1700651779.jpg?lm=1"
+    }
+  ],
+  "team": "aston-villa"
+}

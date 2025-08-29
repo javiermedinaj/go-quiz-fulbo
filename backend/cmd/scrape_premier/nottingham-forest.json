@@ -1,0 +1,395 @@
+{
+  "players": [
+    {
+      "id": "503680",
+      "name": "Neco Williams",
+      "number": "3",
+      "age": "24",
+      "nationalities": [
+        "Wales"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/191.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/503680-1705499825.jpg?lm=1"
+    },
+    {
+      "id": "585959",
+      "name": "Arnaud Kalimuendo",
+      "number": "15",
+      "age": "23",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/585959-1666698479.jpg?lm=1"
+    },
+    {
+      "id": "295313",
+      "name": "Taiwo Awoniyi",
+      "number": "9",
+      "age": "28",
+      "nationalities": [
+        "Nigeria"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€16.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/124.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/295313-1628595124.jpg?lm=1"
+    },
+    {
+      "id": "127202",
+      "name": "Matz Sels",
+      "number": "26",
+      "age": "33",
+      "nationalities": [
+        "Belgium"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€7.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/127202-1665067633.jpg?lm=1"
+    },
+    {
+      "id": "673492",
+      "name": "Morato",
+      "number": "4",
+      "age": "24",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€14.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/673492-1701295349.jpg?lm=1"
+    },
+    {
+      "id": "447661",
+      "name": "Douglas Luiz",
+      "number": "12",
+      "age": "27",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/447661-1696598670.jpg?lm=1"
+    },
+    {
+      "id": "365108",
+      "name": "Dan Ndoye",
+      "number": "14",
+      "age": "24",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€35.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/365108-1718218474.jpg?lm=1"
+    },
+    {
+      "id": "432164",
+      "name": "Igor Jesus",
+      "number": "19",
+      "age": "24",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€15.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/432164-1725325779.jpg?lm=1"
+    },
+    {
+      "id": "236490",
+      "name": "Ola Aina",
+      "number": "34",
+      "age": "28",
+      "nationalities": [
+        "Nigeria"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/124.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/236490-1707383919.jpg?lm=1"
+    },
+    {
+      "id": "375885",
+      "name": "Ibrahim Sangaré",
+      "number": "6",
+      "age": "27",
+      "nationalities": [
+        "Cote d'Ivoire"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€24.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/375885-1700738495.jpg?lm=1"
+    },
+    {
+      "id": "497291",
+      "name": "Nicolás Domínguez",
+      "number": "16",
+      "age": "27",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€18.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/497291-1663656746.jpg?lm=1"
+    },
+    {
+      "id": "506470",
+      "name": "Josh Bowler",
+      "number": "-",
+      "age": "26",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€1.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/506470-1662044304.jpg?lm=1"
+    },
+    {
+      "id": "897481",
+      "name": "Eric da Silva Moreira",
+      "number": "17",
+      "age": "19",
+      "nationalities": [
+        "Germany"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€1.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/897481-1701679168.jpg?lm=1"
+    },
+    {
+      "id": "429014",
+      "name": "Morgan Gibbs-White",
+      "number": "10",
+      "age": "25",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€50.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/429014-1687975822.jpg?lm=1"
+    },
+    {
+      "id": "108725",
+      "name": "Chris Wood",
+      "number": "11",
+      "age": "33",
+      "nationalities": [
+        "New Zealand"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/120.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/108725-1740646786.jpg?lm=1"
+    },
+    {
+      "id": "201574",
+      "name": "Angus Gunn",
+      "number": "18",
+      "age": "29",
+      "nationalities": [
+        "Scotland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€2.20m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/190.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/201574-1716378186.jpg?lm=1"
+    },
+    {
+      "id": "1005649",
+      "name": "Murillo",
+      "number": "5",
+      "age": "23",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€55.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1005649-1709159139.jpg?lm=1"
+    },
+    {
+      "id": "424881",
+      "name": "Omar Richards",
+      "number": "27",
+      "age": "27",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€2.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/424881-1737119772.jpg?lm=1"
+    },
+    {
+      "id": "567576",
+      "name": "Elliot Anderson",
+      "number": "8",
+      "age": "22",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€32.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/567576-1696453772.jpg?lm=1"
+    },
+    {
+      "id": "413507",
+      "name": "Nikola Milenković",
+      "number": "31",
+      "age": "27",
+      "nationalities": [
+        "Serbia"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€35.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/215.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/413507-1661166461.jpg?lm=1"
+    },
+    {
+      "id": "425902",
+      "name": "Ryan Yates",
+      "number": "22",
+      "age": "27",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€12.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/425902-1684239778.jpg?lm=1"
+    },
+    {
+      "id": "583199",
+      "name": "James McAtee",
+      "number": "24",
+      "age": "22",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/583199-1692364836.jpg?lm=1"
+    },
+    {
+      "id": "663244",
+      "name": "Jota Silva",
+      "number": "20",
+      "age": "26",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€15.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/663244-1731056081.jpg?lm=1"
+    },
+    {
+      "id": "448854",
+      "name": "Emmanuel Dennis",
+      "number": "25",
+      "age": "27",
+      "nationalities": [
+        "Nigeria"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€2.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/124.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/448854-1695644743.png?lm=1"
+    },
+    {
+      "id": "984096",
+      "name": "Jair Cunha",
+      "number": "23",
+      "age": "20",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€13.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/984096-1706124246.jpg?lm=1"
+    },
+    {
+      "id": "498237",
+      "name": "David Carmo",
+      "number": "36",
+      "age": "26",
+      "nationalities": [
+        "Angola"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/6.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/498237-1728417252.png?lm=1"
+    },
+    {
+      "id": "741238",
+      "name": "Omari Hutchinson",
+      "number": "21",
+      "age": "21",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/741238-1646905031.jpg?lm=1"
+    },
+    {
+      "id": "392768",
+      "name": "Callum Hudson-Odoi",
+      "number": "7",
+      "age": "24",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/392768-1659969850.png?lm=1"
+    },
+    {
+      "id": "142310",
+      "name": "Willy Boly",
+      "number": "30",
+      "age": "34",
+      "nationalities": [
+        "Cote d'Ivoire"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€1.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/142310-1663057112.jpg?lm=1"
+    },
+    {
+      "id": "933017",
+      "name": "Zach Abbott",
+      "number": "44",
+      "age": "19",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€300k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/933017-1724485038.jpg?lm=1"
+    }
+  ],
+  "team": "nottingham-forest"
+}

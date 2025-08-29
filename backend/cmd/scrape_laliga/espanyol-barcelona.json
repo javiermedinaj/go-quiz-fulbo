@@ -1,0 +1,317 @@
+{
+  "players": [
+    {
+      "id": "625651",
+      "name": "Urko González de Zárate",
+      "number": "-",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/625651-1694171507.jpg?lm=1"
+    },
+    {
+      "id": "783396",
+      "name": "Ramón Terrats",
+      "number": "14",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/783396-1726231968.jpg?lm=1"
+    },
+    {
+      "id": "628498",
+      "name": "Jofre Carreras",
+      "number": "17",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/628498-1747385604.jpg?lm=1"
+    },
+    {
+      "id": "834744",
+      "name": "Antoniu Roca",
+      "number": "20",
+      "age": "22",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "1,80 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/834744-1734596565.jpg?lm=1"
+    },
+    {
+      "id": "93936",
+      "name": "Kike García",
+      "number": "19",
+      "age": "35",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "900 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/93936-1490620015.jpg?lm=1"
+    },
+    {
+      "id": "628487",
+      "name": "Ángel Fortuño",
+      "number": "1",
+      "age": "23",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "300 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/628487-1747339466.jpg?lm=1"
+    },
+    {
+      "id": "583510",
+      "name": "Miguel Rubio",
+      "number": "15",
+      "age": "27",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/583510-1702390927.jpg?lm=1"
+    },
+    {
+      "id": "506248",
+      "name": "Edu Expósito",
+      "number": "8",
+      "age": "29",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/506248-1747385472.jpg?lm=1"
+    },
+    {
+      "id": "357884",
+      "name": "Fernando Calero",
+      "number": "5",
+      "age": "29",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/357884-1447238696.jpg?lm=1"
+    },
+    {
+      "id": "102423",
+      "name": "Leandro Cabrera",
+      "number": "6",
+      "age": "34",
+      "nationalities": [
+        "Uruguay"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/179.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/102423-1747343579.jpg?lm=1"
+    },
+    {
+      "id": "946279",
+      "name": "Javi Hernández",
+      "number": "-",
+      "age": "21",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "500 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/946279-1725656260.png?lm=1"
+    },
+    {
+      "id": "408471",
+      "name": "Javi Puado",
+      "number": "7",
+      "age": "27",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/408471-1698158226.jpg?lm=1"
+    },
+    {
+      "id": "745461",
+      "name": "Luca Koleosho",
+      "number": "16",
+      "age": "20",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "12,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/745461-1730795729.jpg?lm=1"
+    },
+    {
+      "id": "647435",
+      "name": "Tyrhys Dolan",
+      "number": "24",
+      "age": "23",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/647435-1679678061.jpg?lm=1"
+    },
+    {
+      "id": "692070",
+      "name": "Clemens Riedel",
+      "number": "-",
+      "age": "22",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/692070-1752059844.jpg?lm=1"
+    },
+    {
+      "id": "819590",
+      "name": "José Salinas",
+      "number": "12",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/819590-1744371555.jpg?lm=1"
+    },
+    {
+      "id": "822331",
+      "name": "Omar El Hilali",
+      "number": "23",
+      "age": "21",
+      "nationalities": [
+        "Marruecos"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "15,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/107.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/822331-1683211692.jpg?lm=1"
+    },
+    {
+      "id": "243879",
+      "name": "Charles Pickel",
+      "number": "-",
+      "age": "28",
+      "nationalities": [
+        "RD del Congo"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "2,40 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/193.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/243879-1658483049.jpg?lm=1"
+    },
+    {
+      "id": "412045",
+      "name": "Pol Lozano",
+      "number": "10",
+      "age": "25",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/412045-1568028635.jpg?lm=1"
+    },
+    {
+      "id": "225593",
+      "name": "Pere Milla",
+      "number": "11",
+      "age": "32",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "1,20 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/225593-1541151194.jpg?lm=1"
+    },
+    {
+      "id": "720518",
+      "name": "Roberto Fernández",
+      "number": "9",
+      "age": "23",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2031",
+      "market_value": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/720518-1732827310.jpg?lm=1"
+    },
+    {
+      "id": "94308",
+      "name": "Marko Dmitrovic",
+      "number": "13",
+      "age": "33",
+      "nationalities": [
+        "Serbia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "800 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/215.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/94308-1669364494.jpg?lm=1"
+    },
+    {
+      "id": "709372",
+      "name": "Carlos Romero",
+      "number": "22",
+      "age": "23",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/709372-1747385379.jpg?lm=1"
+    },
+    {
+      "id": "705813",
+      "name": "Rubén Sánchez",
+      "number": "2",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/705813-1661765132.jpg?lm=1"
+    }
+  ],
+  "team": "espanyol-barcelona"
+}

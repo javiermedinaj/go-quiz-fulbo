@@ -1,0 +1,382 @@
+{
+  "players": [
+    {
+      "id": "119085",
+      "name": "Loris Benito",
+      "number": "23",
+      "age": "33",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€300k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/119085-1623748420.jpg?lm=1"
+    },
+    {
+      "id": "1060983",
+      "name": "Felix Emmanuel Tsimba",
+      "number": "25",
+      "age": "19",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€500k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1"
+    },
+    {
+      "id": "254968",
+      "name": "Dario Marzino",
+      "number": "40",
+      "age": "28",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€100k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/254968-1533135547.jpg?lm=1"
+    },
+    {
+      "id": "196435",
+      "name": "Saidy Janko",
+      "number": "17",
+      "age": "29",
+      "nationalities": [
+        "The Gambia"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€300k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/52.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/196435-1657283742.jpg?lm=1"
+    },
+    {
+      "id": "254965",
+      "name": "Sandro Lauper",
+      "number": "30",
+      "age": "28",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€900k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/254965-1726607982.jpg?lm=1"
+    },
+    {
+      "id": "534360",
+      "name": "Donat Rrudhani",
+      "number": "22",
+      "age": "26",
+      "nationalities": [
+        "Kosovo"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€1.80m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/244.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/534360-1629125097.jpg?lm=1"
+    },
+    {
+      "id": "1066142",
+      "name": "Dominik Pech",
+      "number": "13",
+      "age": "18",
+      "nationalities": [
+        "Czech Republic"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€2.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/172.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1066142-1697910947.png?lm=1"
+    },
+    {
+      "id": "203124",
+      "name": "David von Ballmoos",
+      "number": "26",
+      "age": "30",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€600k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/203124-1683103541.jpg?lm=1"
+    },
+    {
+      "id": "917120",
+      "name": "Tanguy Zoukrou",
+      "number": "4",
+      "age": "22",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€1.80m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/917120-1667289245.jpg?lm=1"
+    },
+    {
+      "id": "507455",
+      "name": "Lewin Blum",
+      "number": "27",
+      "age": "24",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/507455-1646126761.jpg?lm=1"
+    },
+    {
+      "id": "902987",
+      "name": "Mats Seiler",
+      "number": "55",
+      "age": "20",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€100k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/902987-1727817029.jpg?lm=1"
+    },
+    {
+      "id": "1061048",
+      "name": "Rhodri Smith",
+      "number": "66",
+      "age": "18",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€800k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1061048-1731141803.jpg?lm=1"
+    },
+    {
+      "id": "344576",
+      "name": "Rayan Raveloson",
+      "number": "45",
+      "age": "28",
+      "nationalities": [
+        "Madagascar"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€2.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/101.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/344576-1646079954.JPG?lm=1"
+    },
+    {
+      "id": "567217",
+      "name": "Ebrima Colley",
+      "number": "11",
+      "age": "25",
+      "nationalities": [
+        "The Gambia"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€2.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/52.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/567217-1692963511.jpg?lm=1"
+    },
+    {
+      "id": "250490",
+      "name": "Christian Fassnacht",
+      "number": "16",
+      "age": "31",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€2.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/250490-1626261724.jpg?lm=1"
+    },
+    {
+      "id": "423678",
+      "name": "Meschack Elia",
+      "number": "15",
+      "age": "28",
+      "nationalities": [
+        "DR Congo"
+      ],
+      "contract": "31.12.2026",
+      "market_value": "€4.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/193.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/423678-1561366574.jpg?lm=1"
+    },
+    {
+      "id": "294791",
+      "name": "Chris Bedia",
+      "number": "29",
+      "age": "29",
+      "nationalities": [
+        "Cote d'Ivoire"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€2.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/294791-1626771107.jpg?lm=1"
+    },
+    {
+      "id": "500763",
+      "name": "Marvin Keller",
+      "number": "1",
+      "age": "23",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€9.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/500763-1738674979.jpg?lm=1"
+    },
+    {
+      "id": "203125",
+      "name": "Gregory Wüthrich",
+      "number": "5",
+      "age": "30",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€3.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/203125-1736777794.jpg?lm=1"
+    },
+    {
+      "id": "750903",
+      "name": "Jaouen Hadjam",
+      "number": "3",
+      "age": "22",
+      "nationalities": [
+        "Algeria"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€9.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/4.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/750903-1733948529.jpg?lm=1"
+    },
+    {
+      "id": "507479",
+      "name": "Darian Males",
+      "number": "39",
+      "age": "24",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/507479-1698353019.jpg?lm=1"
+    },
+    {
+      "id": "654415",
+      "name": "Alan Virginius",
+      "number": "7",
+      "age": "22",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/654415-1666690903.jpg?lm=1"
+    },
+    {
+      "id": "867674",
+      "name": "Noah Persson",
+      "number": "19",
+      "age": "22",
+      "nationalities": [
+        "Sweden"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€1.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/147.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/867674-1700817165.jpg?lm=1"
+    },
+    {
+      "id": "247555",
+      "name": "Edimilson Fernandes",
+      "number": "6",
+      "age": "29",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/247555-1628596987.jpg?lm=1"
+    },
+    {
+      "id": "651269",
+      "name": "Armin Gigovic",
+      "number": "37",
+      "age": "23",
+      "nationalities": [
+        "Bosnia-Herzegovina"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€3.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/24.png?lm=1569523290",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/651269-1752734921.jpg?lm=1"
+    },
+    {
+      "id": "410787",
+      "name": "Joël Monteiro",
+      "number": "77",
+      "age": "26",
+      "nationalities": [
+        "Switzerland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€6.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/410787-1646128116.jpg?lm=1"
+    },
+    {
+      "id": "377387",
+      "name": "Sergio Córdova",
+      "number": "9",
+      "age": "28",
+      "nationalities": [
+        "Venezuela"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€1.70m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/182.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/377387-1724671068.jpg?lm=1"
+    },
+    {
+      "id": "1149925",
+      "name": "Facinet Conte",
+      "number": "31",
+      "age": "20",
+      "nationalities": [
+        "Guinea"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€800k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/59.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1149925-1707778879.jpg?lm=1"
+    },
+    {
+      "id": "59082",
+      "name": "Heinz Lindner",
+      "number": "12",
+      "age": "35",
+      "nationalities": [
+        "Austria"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€100k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/127.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/59082-1739451977.PNG?lm=1"
+    }
+  ],
+  "team": "leicester-city"
+}

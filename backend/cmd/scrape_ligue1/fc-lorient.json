@@ -1,0 +1,305 @@
+{
+  "players": [
+    {
+      "id": "496706",
+      "name": "Montassar Talbi",
+      "number": "3",
+      "age": "26/05/1998 (27)",
+      "nationalities": [
+        "Túnez"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/173.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/496706-1628493934.png?lm=1"
+    },
+    {
+      "id": "649023",
+      "name": "Formose Mendy",
+      "number": "5",
+      "age": "02/01/2001 (24)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/649023-1656082248.jpg?lm=1"
+    },
+    {
+      "id": "646829",
+      "name": "Nathaniel Adjei",
+      "number": "32",
+      "age": "21/08/2002 (23)",
+      "nationalities": [
+        "Ghana"
+      ],
+      "contract": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/54.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/646829-1706408527.jpg?lm=1"
+    },
+    {
+      "id": "238626",
+      "name": "Laurent Abergel",
+      "number": "6",
+      "age": "01/02/1993 (32)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/238626-1704576934.jpg?lm=1"
+    },
+    {
+      "id": "766412",
+      "name": "Théo Le Bris",
+      "number": "11",
+      "age": "01/10/2002 (22)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/766412-1747252694.png?lm=1"
+    },
+    {
+      "id": "590914",
+      "name": "Bandiougou Fadiga",
+      "number": "7",
+      "age": "15/01/2001 (24)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "300 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/590914-1601559582.jpg?lm=1"
+    },
+    {
+      "id": "810411",
+      "name": "Pablo Pagis",
+      "number": "10",
+      "age": "29/12/2002 (22)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/810411-1678723431.jpg?lm=1"
+    },
+    {
+      "id": "822458",
+      "name": "Bamba Dieng",
+      "number": "12",
+      "age": "23/03/2000 (25)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/822458-1750956902.png?lm=1"
+    },
+    {
+      "id": "333175",
+      "name": "Bingourou Kamara",
+      "number": "21",
+      "age": "21/10/1996 (28)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "800 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/333175-1525697908.jpg?lm=1"
+    },
+    {
+      "id": "124901",
+      "name": "Benjamin Leroy",
+      "number": "1",
+      "age": "07/04/1989 (36)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "150 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/124901-1525692013.jpg?lm=1"
+    },
+    {
+      "id": "1182738",
+      "name": "Abdoulaye Faye",
+      "number": "25",
+      "age": "22/09/2004 (20)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1182738-1695367426.jpg?lm=1"
+    },
+    {
+      "id": "717118",
+      "name": "Darlin Yongwa",
+      "number": "44",
+      "age": "22/09/2000 (24)",
+      "nationalities": [
+        "Camerún"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/717118-1704299779.jpg?lm=1"
+    },
+    {
+      "id": "619461",
+      "name": "Mohamed Bamba",
+      "number": "9",
+      "age": "10/12/2001 (23)",
+      "nationalities": [
+        "Costa de Marfil"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/619461-1706309019.jpg?lm=1"
+    },
+    {
+      "id": "239647",
+      "name": "Aiyegun Tosin",
+      "number": "15",
+      "age": "26/06/1998 (27)",
+      "nationalities": [
+        "Benín"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/21.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/239647-1647955304.jpg?lm=1"
+    },
+    {
+      "id": "1088199",
+      "name": "Arsène Kouassi",
+      "number": "43",
+      "age": "11/09/2004 (20)",
+      "nationalities": [
+        "Burkina Faso"
+      ],
+      "contract": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/29.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1088199-1741881661.jpg?lm=1"
+    },
+    {
+      "id": "969447",
+      "name": "Dermane Karim",
+      "number": "29",
+      "age": "26/12/2003 (21)",
+      "nationalities": [
+        "Togo"
+      ],
+      "contract": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/168.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/969447-1713870015.png?lm=1"
+    },
+    {
+      "id": "322305",
+      "name": "Jean-Victor Makengo",
+      "number": "17",
+      "age": "12/06/1998 (27)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/322305-1663664657.jpg?lm=1"
+    },
+    {
+      "id": "691958",
+      "name": "Noah Cadiou",
+      "number": "8",
+      "age": "26/10/1998 (26)",
+      "nationalities": [
+        "Guadalupe"
+      ],
+      "contract": "1,20 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/251.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/691958-1669326988.jpg?lm=1"
+    },
+    {
+      "id": "816308",
+      "name": "Panos Katseris",
+      "number": "77",
+      "age": "05/07/2001 (24)",
+      "nationalities": [
+        "Grecia"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/56.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/816308-1606484515.jpg?lm=1"
+    },
+    {
+      "id": "704270",
+      "name": "Sambou Soumano",
+      "number": "28",
+      "age": "03/01/2001 (24)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/704270-1645697334.jpg?lm=1"
+    },
+    {
+      "id": "802747",
+      "name": "Siriné Doucouré",
+      "number": "99",
+      "age": "08/04/2002 (23)",
+      "nationalities": [
+        "Malí"
+      ],
+      "contract": "600 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/105.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/802747-1656346925.jpg?lm=1"
+    },
+    {
+      "id": "708678",
+      "name": "Isaak Touré",
+      "number": "95",
+      "age": "28/03/2003 (22)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/708678-1645641626.jpg?lm=1"
+    },
+    {
+      "id": "391720",
+      "name": "Igor Silva",
+      "number": "2",
+      "age": "21/08/1996 (29)",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/391720-1600971302.jpg?lm=1"
+    },
+    {
+      "id": "1074628",
+      "name": "Arthur Avom",
+      "number": "62",
+      "age": "15/12/2004 (20)",
+      "nationalities": [
+        "Camerún"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1074628-1733314520.jpg?lm=1"
+    },
+    {
+      "id": "700078",
+      "name": "Joel Mvuka",
+      "number": "93",
+      "age": "12/11/2002 (22)",
+      "nationalities": [
+        "Noruega"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/125.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/700078-1709544633.jpg?lm=1"
+    }
+  ],
+  "team": "fc-lorient"
+}

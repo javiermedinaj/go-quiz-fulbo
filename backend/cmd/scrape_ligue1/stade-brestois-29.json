@@ -1,0 +1,257 @@
+{
+  "players": [
+    {
+      "id": "975438",
+      "name": "Noah Jauny",
+      "number": "50",
+      "age": "26/08/2004 (21)",
+      "nationalities": [
+        "Irlanda"
+      ],
+      "contract": "-",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/72.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/975438-1739222120.jpg?lm=1"
+    },
+    {
+      "id": "1009596",
+      "name": "Junior Diaz",
+      "number": "4",
+      "age": "23/07/2003 (22)",
+      "nationalities": [
+        "Costa de Marfil"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1009596-1693565221.png?lm=1"
+    },
+    {
+      "id": "174196",
+      "name": "Kenny Lala",
+      "number": "77",
+      "age": "03/10/1991 (33)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/174196-1677254936.jpg?lm=1"
+    },
+    {
+      "id": "671594",
+      "name": "Kamory Doumbia",
+      "number": "23",
+      "age": "18/02/2003 (22)",
+      "nationalities": [
+        "Malí"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/105.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/671594-1639672362.png?lm=1"
+    },
+    {
+      "id": "924800",
+      "name": "Axel Camblan",
+      "number": "11",
+      "age": "30/08/2003 (21)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "500 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/924800-1685635027.jpg?lm=1"
+    },
+    {
+      "id": "1237907",
+      "name": "Saliou Diop",
+      "number": "29",
+      "age": "12/05/2005 (20)",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "50 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1"
+    },
+    {
+      "id": "346546",
+      "name": "Radoslaw Majecki",
+      "number": "1",
+      "age": "16/11/1999 (25)",
+      "nationalities": [
+        "Polonia"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/135.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/346546-1672484869.jpg?lm=1"
+    },
+    {
+      "id": "250779",
+      "name": "Brendan Chardonnet",
+      "number": "5",
+      "age": "22/12/1994 (30)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/250779-1582538208.jpg?lm=1"
+    },
+    {
+      "id": "1030153",
+      "name": "Justin Bourgault",
+      "number": "18",
+      "age": "14/09/2005 (19)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "800 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1030153-1727207548.png?lm=1"
+    },
+    {
+      "id": "624037",
+      "name": "Joris Chotard",
+      "number": "13",
+      "age": "24/09/2001 (23)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/624037-1702663463.JPG?lm=1"
+    },
+    {
+      "id": "474662",
+      "name": "Hugo Magnetti",
+      "number": "8",
+      "age": "30/05/1998 (27)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/474662-1582538510.jpg?lm=1"
+    },
+    {
+      "id": "325223",
+      "name": "Mama Baldé",
+      "number": "17",
+      "age": "06/11/1995 (29)",
+      "nationalities": [
+        "Guinea-Bissau"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/60.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/325223-1702991373.jpg?lm=1"
+    },
+    {
+      "id": "794349",
+      "name": "Julien Le Cardinal",
+      "number": "26",
+      "age": "03/08/1997 (28)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/794349-1727808054.jpg?lm=1"
+    },
+    {
+      "id": "1144999",
+      "name": "Luck Zogbé",
+      "number": "12",
+      "age": "24/03/2005 (20)",
+      "nationalities": [
+        "Costa de Marfil"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1144999-1725882803.jpg?lm=1"
+    },
+    {
+      "id": "1200289",
+      "name": "Hamidou Makalou",
+      "number": "33",
+      "age": "15/07/2006 (19)",
+      "nationalities": [
+        "Malí"
+      ],
+      "contract": "300 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/105.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1200289-1701678439.jpg?lm=1"
+    },
+    {
+      "id": "684062",
+      "name": "Hianga'a Mbock",
+      "number": "28",
+      "age": "28/12/1999 (25)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "400 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/684062-1582538486.jpg?lm=1"
+    },
+    {
+      "id": "283994",
+      "name": "Ludovic Ajorque",
+      "number": "19",
+      "age": "25/02/1994 (31)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/283994-1692000251.jpg?lm=1"
+    },
+    {
+      "id": "525155",
+      "name": "Grégoire Coudert",
+      "number": "30",
+      "age": "03/04/1999 (26)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "500 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/525155-1632761084.jpg?lm=1"
+    },
+    {
+      "id": "805908",
+      "name": "Bradley Locko",
+      "number": "2",
+      "age": "06/05/2002 (23)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "9,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/805908-1639674661.png?lm=1"
+    },
+    {
+      "id": "671590",
+      "name": "Daouda Guindo",
+      "number": "27",
+      "age": "14/10/2002 (22)",
+      "nationalities": [
+        "Malí"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/105.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/671590-1722524207.png?lm=1"
+    },
+    {
+      "id": "353399",
+      "name": "Romain Del Castillo",
+      "number": "10",
+      "age": "29/03/1996 (29)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/353399-1593964996.jpg?lm=1"
+    }
+  ],
+  "team": "stade-brestois-29"
+}

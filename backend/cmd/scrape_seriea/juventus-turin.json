@@ -1,0 +1,356 @@
+{
+  "players": [
+    {
+      "id": "480116",
+      "name": "Lloyd Kelly",
+      "number": "6",
+      "age": "26",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "16,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/480116-1739281396.jpg?lm=1"
+    },
+    {
+      "id": "162959",
+      "name": "Daniele Rugani",
+      "number": "24",
+      "age": "31",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/162959-1753427431.jpg?lm=1"
+    },
+    {
+      "id": "332697",
+      "name": "Weston McKennie",
+      "number": "22",
+      "age": "27",
+      "nationalities": [
+        "Estados Unidos"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "22,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/184.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/332697-1754245044.jpg?lm=1"
+    },
+    {
+      "id": "161011",
+      "name": "Filip Kostić",
+      "number": "18",
+      "age": "32",
+      "nationalities": [
+        "Serbia"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/215.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/161011-1728391991.JPG?lm=1"
+    },
+    {
+      "id": "845654",
+      "name": "Kenan Yıldız",
+      "number": "10",
+      "age": "20",
+      "nationalities": [
+        "Turquía"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "50,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/174.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/845654-1700467996.png?lm=1"
+    },
+    {
+      "id": "487474",
+      "name": "Francisco Conceição",
+      "number": "7",
+      "age": "22",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "28,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/487474-1749069081.jpg?lm=1"
+    },
+    {
+      "id": "357498",
+      "name": "Dušan Vlahović",
+      "number": "9",
+      "age": "25",
+      "nationalities": [
+        "Serbia"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/215.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/357498-1683293071.jpg?lm=1"
+    },
+    {
+      "id": "516716",
+      "name": "Bremer",
+      "number": "3",
+      "age": "28",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "50,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/516716-1725531520.jpg?lm=1"
+    },
+    {
+      "id": "825199",
+      "name": "Facundo González",
+      "number": "46",
+      "age": "22",
+      "nationalities": [
+        "Uruguay"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/179.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/825199-1729850176.jpg?lm=1"
+    },
+    {
+      "id": "741090",
+      "name": "Jonas Rouhi",
+      "number": "40",
+      "age": "21",
+      "nationalities": [
+        "Suecia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/147.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/741090-1655243837.jpg?lm=1"
+    },
+    {
+      "id": "708072",
+      "name": "Nicolò Savona",
+      "number": "37",
+      "age": "22",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "12,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/708072-1730125797.jpg?lm=1"
+    },
+    {
+      "id": "571607",
+      "name": "Fabio Miretti",
+      "number": "21",
+      "age": "22",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "14,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/571607-1652773586.jpg?lm=1"
+    },
+    {
+      "id": "191891",
+      "name": "Arkadiusz Milik",
+      "number": "14",
+      "age": "31",
+      "nationalities": [
+        "Polonia"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/135.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/191891-1661518258.jpg?lm=1"
+    },
+    {
+      "id": "459658",
+      "name": "Andrea Cambiaso",
+      "number": "27",
+      "age": "25",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/459658-1662127057.jpg?lm=1"
+    },
+    {
+      "id": "360518",
+      "name": "Teun Koopmeiners",
+      "number": "8",
+      "age": "27",
+      "nationalities": [
+        "Países Bajos"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/360518-1707302998.jpg?lm=1"
+    },
+    {
+      "id": "944570",
+      "name": "Vasilije Adžić",
+      "number": "17",
+      "age": "19",
+      "nationalities": [
+        "Montenegro"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/216.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/944570-1730123395.jpg?lm=1"
+    },
+    {
+      "id": "486031",
+      "name": "Nico González",
+      "number": "11",
+      "age": "27",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "24,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/486031-1673442459.jpg?lm=1"
+    },
+    {
+      "id": "533738",
+      "name": "Jonathan David",
+      "number": "30",
+      "age": "25",
+      "nationalities": [
+        "Canadá"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "45,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/80.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/533738-1751534862.jpg?lm=1"
+    },
+    {
+      "id": "301238",
+      "name": "Michele Di Gregorio",
+      "number": "16",
+      "age": "28",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "18,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/301238-1730125609.jpg?lm=1"
+    },
+    {
+      "id": "110923",
+      "name": "Mattia Perin",
+      "number": "1",
+      "age": "32",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/110923-1695107834.jpg?lm=1"
+    },
+    {
+      "id": "75411",
+      "name": "Carlo Pinsoglio",
+      "number": "23",
+      "age": "35",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "200 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/75411-1663577377.jpg?lm=1"
+    },
+    {
+      "id": "509022",
+      "name": "Federico Gatti",
+      "number": "4",
+      "age": "27",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "24,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/509022-1725531068.jpg?lm=1"
+    },
+    {
+      "id": "686965",
+      "name": "Juan Cabal",
+      "number": "32",
+      "age": "24",
+      "nationalities": [
+        "Colombia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "9,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/83.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/686965-1692964112.jpg?lm=1"
+    },
+    {
+      "id": "537602",
+      "name": "João Mário",
+      "number": "25",
+      "age": "25",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/537602-1753421209.jpg?lm=1"
+    },
+    {
+      "id": "265088",
+      "name": "Manuel Locatelli",
+      "number": "5",
+      "age": "27",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "30,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/265088-1730125083.jpg?lm=1"
+    },
+    {
+      "id": "463618",
+      "name": "Khéphren Thuram",
+      "number": "19",
+      "age": "24",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "40,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/463618-1683889273.jpg?lm=1"
+    },
+    {
+      "id": "585949",
+      "name": "Pierre Kalulu",
+      "number": "15",
+      "age": "25",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "28,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/585949-1684854558.jpg?lm=1"
+    }
+  ],
+  "team": "juventus-turin"
+}

@@ -1,0 +1,434 @@
+{
+  "players": [
+    {
+      "id": "660860",
+      "name": "Diego Coppola",
+      "number": "42",
+      "age": "21",
+      "nationalities": [
+        "Italy"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/660860-1663671800.jpg?lm=1"
+    },
+    {
+      "id": "429915",
+      "name": "Maxim De Cuyper",
+      "number": "29",
+      "age": "24",
+      "nationalities": [
+        "Belgium"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€16.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/429915-1733899691.jpg?lm=1"
+    },
+    {
+      "id": "111195",
+      "name": "Joël Veltman",
+      "number": "34",
+      "age": "33",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€4.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/111195-1700650522.jpg?lm=1"
+    },
+    {
+      "id": "667287",
+      "name": "Yasin Ayari",
+      "number": "26",
+      "age": "21",
+      "nationalities": [
+        "Sweden"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/147.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/667287-1746438362.jpg?lm=1"
+    },
+    {
+      "id": "504849",
+      "name": "Kaoru Mitoma",
+      "number": "22",
+      "age": "28",
+      "nationalities": [
+        "Japan"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€40.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/77.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/504849-1731683095.jpg?lm=1"
+    },
+    {
+      "id": "933018",
+      "name": "Tom Watson",
+      "number": "14",
+      "age": "19",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€8.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/933018-1739871162.jpg?lm=1"
+    },
+    {
+      "id": "1060087",
+      "name": "Charalampos Kostoulas",
+      "number": "19",
+      "age": "18",
+      "nationalities": [
+        "Greece"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€12.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/56.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1060087-1750779518.jpg?lm=1"
+    },
+    {
+      "id": "318508",
+      "name": "Olivier Boscagli",
+      "number": "21",
+      "age": "27",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/318508-1701700523.jpg?lm=1"
+    },
+    {
+      "id": "504148",
+      "name": "Tariq Lamptey",
+      "number": "2",
+      "age": "24",
+      "nationalities": [
+        "Ghana"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€11.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/54.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/504148-1692364960.jpg?lm=1"
+    },
+    {
+      "id": "867688",
+      "name": "Jack Hinshelwood",
+      "number": "13",
+      "age": "20",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€24.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/867688-1698353957.jpg?lm=1"
+    },
+    {
+      "id": "406634",
+      "name": "Matt O'Riley",
+      "number": "33",
+      "age": "24",
+      "nationalities": [
+        "Denmark"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/39.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/406634-1661800636.jpg?lm=1"
+    },
+    {
+      "id": "983989",
+      "name": "Facundo Buonanotte",
+      "number": "40",
+      "age": "20",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/983989-1682588141.jpg?lm=1"
+    },
+    {
+      "id": "212847",
+      "name": "Adam Webster",
+      "number": "4",
+      "age": "30",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€11.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/212847-1681737411.jpg?lm=1"
+    },
+    {
+      "id": "369316",
+      "name": "Ferdi Kadıoğlu",
+      "number": "24",
+      "age": "25",
+      "nationalities": [
+        "Türkiye"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/174.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/369316-1724792538.jpg?lm=1"
+    },
+    {
+      "id": "973085",
+      "name": "Carlos Baleba",
+      "number": "17",
+      "age": "21",
+      "nationalities": [
+        "Cameroon"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€40.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/973085-1666690662.jpg?lm=1"
+    },
+    {
+      "id": "415381",
+      "name": "Mats Wieffer",
+      "number": "27",
+      "age": "25",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/415381-1673869834.jpg?lm=1"
+    },
+    {
+      "id": "776798",
+      "name": "Abdallah Sima",
+      "number": "37",
+      "age": "24",
+      "nationalities": [
+        "Senegal"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€9.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/149.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/776798-1672669896.jpg?lm=1"
+    },
+    {
+      "id": "209212",
+      "name": "Solly March",
+      "number": "7",
+      "age": "31",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€6.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/209212-1682348330.jpeg?lm=1"
+    },
+    {
+      "id": "950091",
+      "name": "Stefanos Tzimas",
+      "number": "9",
+      "age": "19",
+      "nationalities": [
+        "Greece"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/56.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/950091-1722955946.jpg?lm=1"
+    },
+    {
+      "id": "660867",
+      "name": "Julio Enciso",
+      "number": "31",
+      "age": "21",
+      "nationalities": [
+        "Paraguay"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€22.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/132.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/660867-1669388786.jpg?lm=1"
+    },
+    {
+      "id": "700106",
+      "name": "Brajan Gruda",
+      "number": "8",
+      "age": "21",
+      "nationalities": [
+        "Germany"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€25.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/700106-1699001685.jpg?lm=1"
+    },
+    {
+      "id": "3333",
+      "name": "James Milner",
+      "number": "20",
+      "age": "39",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€1.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/3333-1662621121.jpg?lm=1"
+    },
+    {
+      "id": "565093",
+      "name": "Bart Verbruggen",
+      "number": "1",
+      "age": "23",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/565093-1716990260.jpg?lm=1"
+    },
+    {
+      "id": "576314",
+      "name": "Jan Paul van Hecke",
+      "number": "6",
+      "age": "25",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€32.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/576314-1742501220.jpg?lm=1"
+    },
+    {
+      "id": "380350",
+      "name": "Igor",
+      "number": "3",
+      "age": "27",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/380350-1700737326.jpg?lm=1"
+    },
+    {
+      "id": "568005",
+      "name": "Jeremy Sarmiento",
+      "number": "32",
+      "age": "23",
+      "nationalities": [
+        "Ecuador"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€7.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/44.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/568005-1638484043.jpg?lm=1"
+    },
+    {
+      "id": "406556",
+      "name": "Tom McGill",
+      "number": "38",
+      "age": "25",
+      "nationalities": [
+        "Canada"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€600k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/80.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/406556-1718472851.jpg?lm=1"
+    },
+    {
+      "id": "148153",
+      "name": "Lewis Dunk",
+      "number": "5",
+      "age": "33",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€6.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/148153-1716297176.jpg?lm=1"
+    },
+    {
+      "id": "996897",
+      "name": "Diego Gómez",
+      "number": "25",
+      "age": "22",
+      "nationalities": [
+        "Paraguay"
+      ],
+      "contract": "-",
+      "market_value": "€14.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/132.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/996897-1710077684.jpg?lm=1"
+    },
+    {
+      "id": "67063",
+      "name": "Danny Welbeck",
+      "number": "18",
+      "age": "34",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€5.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/67063-1746437656.jpg?lm=1"
+    },
+    {
+      "id": "73564",
+      "name": "Jason Steele",
+      "number": "23",
+      "age": "35",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€1.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/73564-1681383960.jpg?lm=1"
+    },
+    {
+      "id": "1012534",
+      "name": "Yankuba Minteh",
+      "number": "11",
+      "age": "21",
+      "nationalities": [
+        "The Gambia"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/52.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1012534-1694774813.jpg?lm=1"
+    },
+    {
+      "id": "538977",
+      "name": "Georginio Rutter",
+      "number": "10",
+      "age": "23",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€32.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/538977-1727785742.jpg?lm=1"
+    }
+  ],
+  "team": "brighton-amp-hove-albion"
+}

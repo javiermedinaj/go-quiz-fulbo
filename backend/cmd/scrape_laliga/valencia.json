@@ -1,0 +1,317 @@
+{
+  "players": [
+    {
+      "id": "398131",
+      "name": "Cristian Rivero",
+      "number": "13",
+      "age": "27",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "100 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/398131-1745337358.jpg?lm=1"
+    },
+    {
+      "id": "346289",
+      "name": "Mouctar Diakhaby",
+      "number": "4",
+      "age": "28",
+      "nationalities": [
+        "Guinea"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/59.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/346289-1709636432.jpg?lm=1"
+    },
+    {
+      "id": "623024",
+      "name": "Jesús Vázquez",
+      "number": "21",
+      "age": "22",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/623024-1644238446.jpg?lm=1"
+    },
+    {
+      "id": "617081",
+      "name": "Diego López",
+      "number": "16",
+      "age": "23",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "15,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/617081-1683211924.jpg?lm=1"
+    },
+    {
+      "id": "625014",
+      "name": "Julen Agirrezabala",
+      "number": "25",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "15,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/625014-1709674945.png?lm=1"
+    },
+    {
+      "id": "298583",
+      "name": "Eray Cömert",
+      "number": "24",
+      "age": "27",
+      "nationalities": [
+        "Suiza"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/298583-1704213027.jpg?lm=1"
+    },
+    {
+      "id": "328480",
+      "name": "Pepelu",
+      "number": "18",
+      "age": "27",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "9,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/328480-1713971066.jpg?lm=1"
+    },
+    {
+      "id": "518644",
+      "name": "Largie Ramazani",
+      "number": "17",
+      "age": "24",
+      "nationalities": [
+        "Bélgica"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "7,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/518644-1692367509.jpg?lm=1"
+    },
+    {
+      "id": "355861",
+      "name": "Arnaut Danjuma",
+      "number": "7",
+      "age": "28",
+      "nationalities": [
+        "Países Bajos"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/355861-1674657323.jpg?lm=1"
+    },
+    {
+      "id": "278837",
+      "name": "Luis Rioja",
+      "number": "11",
+      "age": "31",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/278837-1647530464.jpg?lm=1"
+    },
+    {
+      "id": "413262",
+      "name": "Dani Raba",
+      "number": "19",
+      "age": "29",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/413262-1743493611.jpg?lm=1"
+    },
+    {
+      "id": "165467",
+      "name": "Stole Dimitrievski",
+      "number": "1",
+      "age": "31",
+      "nationalities": [
+        "Macedonia del Norte"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/100.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/165467-1541150592.jpg?lm=1"
+    },
+    {
+      "id": "520840",
+      "name": "José Copete",
+      "number": "3",
+      "age": "25",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/520840-1674915512.JPG?lm=1"
+    },
+    {
+      "id": "221322",
+      "name": "José Gayà",
+      "number": "14",
+      "age": "30",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "9,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/221322-1605193468.jpg?lm=1"
+    },
+    {
+      "id": "170472",
+      "name": "Dimitri Foulquier",
+      "number": "20",
+      "age": "32",
+      "nationalities": [
+        "Guadalupe"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/251.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/170472-1447230887.jpg?lm=1"
+    },
+    {
+      "id": "285323",
+      "name": "Baptiste Santamaria",
+      "number": "22",
+      "age": "30",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/285323-1739972064.jpg?lm=1"
+    },
+    {
+      "id": "394236",
+      "name": "Filip Ugrinic",
+      "number": "23",
+      "age": "26",
+      "nationalities": [
+        "Suiza"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/394236-1700817304.png?lm=1"
+    },
+    {
+      "id": "251845",
+      "name": "Sergi Canós",
+      "number": "-",
+      "age": "28",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2027",
+      "market_value": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/251845-1538466933.jpg?lm=1"
+    },
+    {
+      "id": "634105",
+      "name": "Alberto Marí",
+      "number": "17",
+      "age": "24",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/634105-1690382984.jpg?lm=1"
+    },
+    {
+      "id": "707274",
+      "name": "César Tárrega",
+      "number": "5",
+      "age": "23",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2030",
+      "market_value": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/707274-1698963222.jpg?lm=1"
+    },
+    {
+      "id": "367466",
+      "name": "Thierry Correia",
+      "number": "12",
+      "age": "26",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "30/06/2026",
+      "market_value": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/367466-1548510976.jpg?lm=1"
+    },
+    {
+      "id": "834764",
+      "name": "Javi Guerra",
+      "number": "8",
+      "age": "22",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2029",
+      "market_value": "25,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/834764-1696188716.jpg?lm=1"
+    },
+    {
+      "id": "375382",
+      "name": "André Almeida",
+      "number": "10",
+      "age": "25",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/375382-1547563680.png?lm=1"
+    },
+    {
+      "id": "573775",
+      "name": "Hugo Duro",
+      "number": "9",
+      "age": "25",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "30/06/2028",
+      "market_value": "14,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/573775-1683213249.jpg?lm=1"
+    }
+  ],
+  "team": "fc-valencia"
+}

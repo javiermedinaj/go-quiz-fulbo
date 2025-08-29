@@ -1,0 +1,353 @@
+{
+  "players": [
+    {
+      "id": "1009463",
+      "name": "Niklas Swider",
+      "number": "39",
+      "age": "05/01/2007 (18)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "250 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1009463-1726087740.jpg?lm=1"
+    },
+    {
+      "id": "613192",
+      "name": "Jens Castrop",
+      "number": "17",
+      "age": "29/07/2003 (22)",
+      "nationalities": [
+        "Corea del Sur"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/87.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/613192-1689328089.jpg?lm=1"
+    },
+    {
+      "id": "610428",
+      "name": "Oscar Fraulo",
+      "number": "22",
+      "age": "06/12/2003 (21)",
+      "nationalities": [
+        "Dinamarca"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/39.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/610428-1662965875.jpg?lm=1"
+    },
+    {
+      "id": "284270",
+      "name": "Moritz Nicolas",
+      "number": "33",
+      "age": "21/10/1997 (27)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/284270-1722945496.jpg?lm=1"
+    },
+    {
+      "id": "229006",
+      "name": "Franck Honorat",
+      "number": "9",
+      "age": "11/08/1996 (29)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "12,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/229006-1691248904.jpg?lm=1"
+    },
+    {
+      "id": "203123",
+      "name": "Haris Tabakovic",
+      "number": "15",
+      "age": "20/06/1994 (31)",
+      "nationalities": [
+        "Bosnia y Herzegovina"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/24.png?lm=1569523290",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/203123-1720778399.jpg?lm=1"
+    },
+    {
+      "id": "247915",
+      "name": "Jonas Omlin",
+      "number": "1",
+      "age": "10/01/1994 (31)",
+      "nationalities": [
+        "Suiza"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/247915-1691248651.jpg?lm=1"
+    },
+    {
+      "id": "1070979",
+      "name": "Wael Mohya",
+      "number": "36",
+      "age": "31/12/2008 (16)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "-",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1070979-1754429112.jpg?lm=1"
+    },
+    {
+      "id": "524285",
+      "name": "Luca Netz",
+      "number": "20",
+      "age": "15/05/2003 (22)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/524285-1662966052.jpg?lm=1"
+    },
+    {
+      "id": "884822",
+      "name": "Charles Herrmann",
+      "number": "34",
+      "age": "21/01/2006 (19)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "300 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/884822-1713463194.jpg?lm=1"
+    },
+    {
+      "id": "926301",
+      "name": "Tiago Pereira Cardoso",
+      "number": "42",
+      "age": "07/04/2006 (19)",
+      "nationalities": [
+        "Luxemburgo"
+      ],
+      "contract": "1,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/99.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/926301-1740647729.jpg?lm=1"
+    },
+    {
+      "id": "31653",
+      "name": "Tobias Sippel",
+      "number": "21",
+      "age": "22/03/1988 (37)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "300 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/31653-1662965792.jpg?lm=1"
+    },
+    {
+      "id": "724104",
+      "name": "Fabio Chiarodia",
+      "number": "2",
+      "age": "05/06/2005 (20)",
+      "nationalities": [
+        "Italia"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/724104-1722945535.jpg?lm=1"
+    },
+    {
+      "id": "787151",
+      "name": "Lukas Ullrich",
+      "number": "26",
+      "age": "16/03/2004 (21)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/787151-1691248738.jpg?lm=1"
+    },
+    {
+      "id": "278332",
+      "name": "Florian Neuhaus",
+      "number": "10",
+      "age": "16/03/1997 (28)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/278332-1739091435.jpg?lm=1"
+    },
+    {
+      "id": "504215",
+      "name": "Giovanni Reyna",
+      "number": "13",
+      "age": "13/11/2002 (22)",
+      "nationalities": [
+        "Estados Unidos"
+      ],
+      "contract": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/184.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/504215-1719657655.jpg?lm=1"
+    },
+    {
+      "id": "284010",
+      "name": "Robin Hack",
+      "number": "25",
+      "age": "27/08/1998 (27)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "12,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/284010-1722945425.jpg?lm=1"
+    },
+    {
+      "id": "550580",
+      "name": "Shuto Machino",
+      "number": "18",
+      "age": "30/09/1999 (25)",
+      "nationalities": [
+        "Japón"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/77.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/550580-1688645996.jpg?lm=1"
+    },
+    {
+      "id": "196231",
+      "name": "Marvin Friedrich",
+      "number": "5",
+      "age": "13/12/1995 (29)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/196231-1662966392.jpg?lm=1"
+    },
+    {
+      "id": "106872",
+      "name": "Kevin Stöger",
+      "number": "7",
+      "age": "27/08/1993 (32)",
+      "nationalities": [
+        "Austria"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/127.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/106872-1722945684.jpg?lm=1"
+    },
+    {
+      "id": "193033",
+      "name": "Tim Kleindienst",
+      "number": "11",
+      "age": "31/08/1995 (29)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "17,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/193033-1722945738.jpg?lm=1"
+    },
+    {
+      "id": "196792",
+      "name": "Julian Weigl",
+      "number": "8",
+      "age": "08/09/1995 (29)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/196792-1662965628.jpg?lm=1"
+    },
+    {
+      "id": "467434",
+      "name": "Rocco Reitz",
+      "number": "27",
+      "age": "29/05/2002 (23)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "15,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/467434-1662966138.jpg?lm=1"
+    },
+    {
+      "id": "192635",
+      "name": "Nico Elvedi",
+      "number": "30",
+      "age": "30/09/1996 (28)",
+      "nationalities": [
+        "Suiza"
+      ],
+      "contract": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/192635-1691249306.jpg?lm=1"
+    },
+    {
+      "id": "504153",
+      "name": "Joe Scally",
+      "number": "29",
+      "age": "31/12/2002 (22)",
+      "nationalities": [
+        "Estados Unidos"
+      ],
+      "contract": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/184.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/504153-1662965954.jpg?lm=1"
+    },
+    {
+      "id": "335209",
+      "name": "Kevin Diks",
+      "number": "4",
+      "age": "06/10/1996 (28)",
+      "nationalities": [
+        "Indonesia"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/68.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/335209-1695237676.jpg?lm=1"
+    },
+    {
+      "id": "388409",
+      "name": "Philipp Sander",
+      "number": "16",
+      "age": "21/02/1998 (27)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/388409-1706105305.jpg?lm=1"
+    },
+    {
+      "id": "629588",
+      "name": "Nathan Ngoumou",
+      "number": "19",
+      "age": "14/03/2000 (25)",
+      "nationalities": [
+        "Camerún"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/629588-1662966435.jpg?lm=1"
+    },
+    {
+      "id": "574201",
+      "name": "Grant-Leon Ranos",
+      "number": "28",
+      "age": "20/07/2003 (22)",
+      "nationalities": [
+        "Armenia"
+      ],
+      "contract": "500 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/10.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/574201-1691249188.jpg?lm=1"
+    }
+  ],
+  "team": "borussia-monchengladbach"
+}

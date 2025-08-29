@@ -1,0 +1,389 @@
+{
+  "players": [
+    {
+      "id": "474800",
+      "name": "Facundo Medina",
+      "number": "32",
+      "age": "28/05/1999 (26)",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "25,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/474800-1653402999.jpg?lm=1"
+    },
+    {
+      "id": "58864",
+      "name": "Pierre-Emerick Aubameyang",
+      "number": "97",
+      "age": "18/06/1989 (36)",
+      "nationalities": [
+        "Gabón"
+      ],
+      "contract": "3,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/51.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/58864-1676029326.png?lm=1"
+    },
+    {
+      "id": "192616",
+      "name": "Ulisses Garcia",
+      "number": "6",
+      "age": "11/01/1996 (29)",
+      "nationalities": [
+        "Suiza"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/148.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/192616-1700236348.jpg?lm=1"
+    },
+    {
+      "id": "167799",
+      "name": "Pierre-Emile Højbjerg",
+      "number": "23",
+      "age": "05/08/1995 (30)",
+      "nationalities": [
+        "Dinamarca"
+      ],
+      "contract": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/39.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/167799-1629882773.jpg?lm=1"
+    },
+    {
+      "id": "392770",
+      "name": "Angel Gomes",
+      "number": "8",
+      "age": "31/08/2000 (24)",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/392770-1666690396.jpg?lm=1"
+    },
+    {
+      "id": "1027216",
+      "name": "François Mughe",
+      "number": "24",
+      "age": "16/06/2004 (21)",
+      "nationalities": [
+        "Camerún"
+      ],
+      "contract": "400 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1027216-1747851067.png?lm=1"
+    },
+    {
+      "id": "581669",
+      "name": "CJ Egan-Riley",
+      "number": "4",
+      "age": "02/01/2003 (22)",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "16,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/581669-1751272190.jpg?lm=1"
+    },
+    {
+      "id": "807165",
+      "name": "Bamo Meïté",
+      "number": "18",
+      "age": "03/12/2001 (23)",
+      "nationalities": [
+        "Costa de Marfil"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/807165-1724754649.jpg?lm=1"
+    },
+    {
+      "id": "298975",
+      "name": "Pol Lirola",
+      "number": "29",
+      "age": "13/08/1997 (28)",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/298975-1673514557.jpg?lm=1"
+    },
+    {
+      "id": "372711",
+      "name": "Amine Harit",
+      "number": "11",
+      "age": "18/06/1997 (28)",
+      "nationalities": [
+        "Marruecos"
+      ],
+      "contract": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/107.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/372711-1666815306.jpg?lm=1"
+    },
+    {
+      "id": "599663",
+      "name": "Faris Moumbagna",
+      "number": "-",
+      "age": "01/07/2000 (25)",
+      "nationalities": [
+        "Camerún"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/31.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/599663-1699864871.jpg?lm=1"
+    },
+    {
+      "id": "199321",
+      "name": "Rubén Blanco",
+      "number": "36",
+      "age": "25/07/1995 (30)",
+      "nationalities": [
+        "España"
+      ],
+      "contract": "1,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/199321-1676905860.jpg?lm=1"
+    },
+    {
+      "id": "620912",
+      "name": "Théo Vermot",
+      "number": "92",
+      "age": "27/01/1997 (28)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "-",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/620912-1544003880.jpg?lm=1"
+    },
+    {
+      "id": "575998",
+      "name": "Leonardo Balerdi",
+      "number": "5",
+      "age": "26/01/1999 (26)",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/575998-1640777749.jpg?lm=1"
+    },
+    {
+      "id": "354482",
+      "name": "Amir Murillo",
+      "number": "62",
+      "age": "11/02/1996 (29)",
+      "nationalities": [
+        "Panamá"
+      ],
+      "contract": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/130.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/354482-1719228286.jpg?lm=1"
+    },
+    {
+      "id": "659520",
+      "name": "Bilal Nadir",
+      "number": "26",
+      "age": "28/11/2003 (21)",
+      "nationalities": [
+        "Marruecos"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/107.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/659520-1741961204.jpg?lm=1"
+    },
+    {
+      "id": "1183719",
+      "name": "Keyliane Abdallah",
+      "number": "48",
+      "age": "05/04/2006 (19)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "100 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1"
+    },
+    {
+      "id": "727086",
+      "name": "Jelle Van Neck",
+      "number": "40",
+      "age": "07/03/2004 (21)",
+      "nationalities": [
+        "Bélgica"
+      ],
+      "contract": "50 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/19.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/727086-1672605198.jpg?lm=1"
+    },
+    {
+      "id": "391065",
+      "name": "Hamed Traoré",
+      "number": "20",
+      "age": "16/02/2000 (25)",
+      "nationalities": [
+        "Costa de Marfil"
+      ],
+      "contract": "20,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/38.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/391065-1754900884.jpg?lm=1"
+    },
+    {
+      "id": "370846",
+      "name": "Timothy Weah",
+      "number": "22",
+      "age": "22/02/2000 (25)",
+      "nationalities": [
+        "Estados Unidos"
+      ],
+      "contract": "17,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/184.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/370846-1692277669.jpg?lm=1"
+    },
+    {
+      "id": "315253",
+      "name": "Jeffrey de Lange",
+      "number": "12",
+      "age": "01/04/1998 (27)",
+      "nationalities": [
+        "Países Bajos"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/315253-1723035184.jpg?lm=1"
+    },
+    {
+      "id": "328609",
+      "name": "Derek Cornelius",
+      "number": "13",
+      "age": "25/11/1997 (27)",
+      "nationalities": [
+        "Canadá"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/80.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/328609-1618857970.jpg?lm=1"
+    },
+    {
+      "id": "182913",
+      "name": "Adrien Rabiot",
+      "number": "25",
+      "age": "03/04/1995 (30)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "25,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/182913-1681462009.jpg?lm=1"
+    },
+    {
+      "id": "1170286",
+      "name": "Darryl Bakola",
+      "number": "50",
+      "age": "30/11/2007 (17)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "200 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1170286-1736792764.jpg?lm=1"
+    },
+    {
+      "id": "217115",
+      "name": "Neal Maupay",
+      "number": "7",
+      "age": "14/08/1996 (29)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/217115-1700737951.jpg?lm=1"
+    },
+    {
+      "id": "1131161",
+      "name": "Robinio Vaz",
+      "number": "34",
+      "age": "17/02/2007 (18)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "150 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1131161-1736933666.jpg?lm=1"
+    },
+    {
+      "id": "127189",
+      "name": "Geoffrey Kondogbia",
+      "number": "19",
+      "age": "15/02/1993 (32)",
+      "nationalities": [
+        "República Centroafricana"
+      ],
+      "contract": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/138.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/127189-1703066053.jpg?lm=1"
+    },
+    {
+      "id": "229604",
+      "name": "Gerónimo Rulli",
+      "number": "1",
+      "age": "20/05/1992 (33)",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "8,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/229604-1698670758.jpg?lm=1"
+    },
+    {
+      "id": "593482",
+      "name": "Azzedine Ounahi",
+      "number": "-",
+      "age": "19/04/2000 (25)",
+      "nationalities": [
+        "Marruecos"
+      ],
+      "contract": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/107.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/593482-1748888921.png?lm=1"
+    },
+    {
+      "id": "653610",
+      "name": "Igor Paixão",
+      "number": "14",
+      "age": "28/06/2000 (25)",
+      "nationalities": [
+        "Brasil"
+      ],
+      "contract": "35,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/653610-1723200804.jpg?lm=1"
+    },
+    {
+      "id": "532826",
+      "name": "Mason Greenwood",
+      "number": "10",
+      "age": "01/10/2001 (23)",
+      "nationalities": [
+        "Inglaterra"
+      ],
+      "contract": "40,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/532826-1693987766.jpg?lm=1"
+    },
+    {
+      "id": "418659",
+      "name": "Amine Gouiri",
+      "number": "9",
+      "age": "16/02/2000 (25)",
+      "nationalities": [
+        "Argelia"
+      ],
+      "contract": "30,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/4.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/418659-1649428727.jpg?lm=1"
+    }
+  ],
+  "team": "olympique-de-marsella"
+}

@@ -1,0 +1,382 @@
+{
+  "players": [
+    {
+      "id": "864799",
+      "name": "Stefan Bajcetic",
+      "number": "43",
+      "age": "20",
+      "nationalities": [
+        "Spain"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€9.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/157.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/864799-1661441233.jpg?lm=1"
+    },
+    {
+      "id": "534033",
+      "name": "Alexis Mac Allister",
+      "number": "10",
+      "age": "26",
+      "nationalities": [
+        "Argentina"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€100.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/9.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/534033-1669835342.jpg?lm=1"
+    },
+    {
+      "id": "341092",
+      "name": "Federico Chiesa",
+      "number": "14",
+      "age": "27",
+      "nationalities": [
+        "Italy"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€14.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/341092-1663576975.jpg?lm=1"
+    },
+    {
+      "id": "709726",
+      "name": "Hugo Ekitiké",
+      "number": "22",
+      "age": "23",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2031",
+      "market_value": "€75.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/709726-1724772213.jpg?lm=1"
+    },
+    {
+      "id": "502676",
+      "name": "Giorgi Mamardashvili",
+      "number": "25",
+      "age": "24",
+      "nationalities": [
+        "Georgia"
+      ],
+      "contract": "30.06.2031",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/53.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/502676-1716542116.jpg?lm=1"
+    },
+    {
+      "id": "256178",
+      "name": "Joe Gomez",
+      "number": "2",
+      "age": "28",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/256178-1746645094.jpg?lm=1"
+    },
+    {
+      "id": "730861",
+      "name": "Milos Kerkez",
+      "number": "6",
+      "age": "21",
+      "nationalities": [
+        "Hungary"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€45.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/178.png?lm=1521635893",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/730861-1660762995.jpg?lm=1"
+    },
+    {
+      "id": "234803",
+      "name": "Andrew Robertson",
+      "number": "26",
+      "age": "31",
+      "nationalities": [
+        "Scotland"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€18.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/190.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/234803-1709147379.jpg?lm=1"
+    },
+    {
+      "id": "146310",
+      "name": "Wataru Endo",
+      "number": "3",
+      "age": "32",
+      "nationalities": [
+        "Japan"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€8.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/77.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/146310-1657181542.jpg?lm=1"
+    },
+    {
+      "id": "433188",
+      "name": "Curtis Jones",
+      "number": "17",
+      "age": "24",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€45.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/433188-1701681163.jpg?lm=1"
+    },
+    {
+      "id": "1045123",
+      "name": "Trey Nyoni",
+      "number": "42",
+      "age": "18",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "-",
+      "market_value": "€4.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1045123-1708933240.jpg?lm=1"
+    },
+    {
+      "id": "1108466",
+      "name": "Rio Ngumoha",
+      "number": "73",
+      "age": "17",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€10.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1108466-1730834754.jpg?lm=1"
+    },
+    {
+      "id": "484547",
+      "name": "Jeremie Frimpong",
+      "number": "30",
+      "age": "24",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€50.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/484547-1689710682.jpg?lm=1"
+    },
+    {
+      "id": "633652",
+      "name": "Calvin Ramsay",
+      "number": "47",
+      "age": "22",
+      "nationalities": [
+        "Scotland"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€2.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/190.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/633652-1628698224.jpg?lm=1"
+    },
+    {
+      "id": "105470",
+      "name": "Alisson",
+      "number": "1",
+      "age": "32",
+      "nationalities": [
+        "Brazil"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€20.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/26.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/105470-1668522221.jpg?lm=1"
+    },
+    {
+      "id": "503679",
+      "name": "Rhys Williams",
+      "number": "46",
+      "age": "24",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€700k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/503679-1674491393.jpg?lm=1"
+    },
+    {
+      "id": "478573",
+      "name": "Ryan Gravenberch",
+      "number": "38",
+      "age": "23",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€75.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/478573-1718097194.jpg?lm=1"
+    },
+    {
+      "id": "148455",
+      "name": "Mohamed Salah",
+      "number": "11",
+      "age": "33",
+      "nationalities": [
+        "Egypt"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€50.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/2.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/148455-1727337594.jpg?lm=1"
+    },
+    {
+      "id": "226049",
+      "name": "Freddie Woodman",
+      "number": "28",
+      "age": "28",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€3.50m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/226049-1737883837.jpg?lm=1"
+    },
+    {
+      "id": "933215",
+      "name": "Ármin Pécsi",
+      "number": "41",
+      "age": "20",
+      "nationalities": [
+        "Hungary"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€800k",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/178.png?lm=1521635893",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/933215-1749327495.jpg?lm=1"
+    },
+    {
+      "id": "434675",
+      "name": "Cody Gakpo",
+      "number": "18",
+      "age": "26",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€70.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/434675-1682690965.jpg?lm=1"
+    },
+    {
+      "id": "139208",
+      "name": "Virgil van Dijk",
+      "number": "4",
+      "age": "34",
+      "nationalities": [
+        "Netherlands"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€23.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/139208-1702049837.jpg?lm=1"
+    },
+    {
+      "id": "598577",
+      "name": "Florian Wirtz",
+      "number": "7",
+      "age": "22",
+      "nationalities": [
+        "Germany"
+      ],
+      "contract": "30.06.2030",
+      "market_value": "€140.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/598577-1689710503.jpg?lm=1"
+    },
+    {
+      "id": "451276",
+      "name": "Dominik Szoboszlai",
+      "number": "8",
+      "age": "24",
+      "nationalities": [
+        "Hungary"
+      ],
+      "contract": "30.06.2028",
+      "market_value": "€80.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/178.png?lm=1521635893",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/451276-1700209677.jpg?lm=1"
+    },
+    {
+      "id": "357119",
+      "name": "Ibrahima Konaté",
+      "number": "5",
+      "age": "26",
+      "nationalities": [
+        "France"
+      ],
+      "contract": "30.06.2026",
+      "market_value": "€60.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/357119-1669190550.jpg?lm=1"
+    },
+    {
+      "id": "1086619",
+      "name": "Giovanni Leoni",
+      "number": "15",
+      "age": "18",
+      "nationalities": [
+        "Italy"
+      ],
+      "contract": "30.06.2031",
+      "market_value": "€18.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/75.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1086619-1751532399.jpg?lm=1"
+    },
+    {
+      "id": "338070",
+      "name": "Konstantinos Tsimikas",
+      "number": "21",
+      "age": "29",
+      "nationalities": [
+        "Greece"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€18.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/56.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/338070-1682088468.jpg?lm=1"
+    },
+    {
+      "id": "624258",
+      "name": "Conor Bradley",
+      "number": "12",
+      "age": "22",
+      "nationalities": [
+        "Northern Ireland"
+      ],
+      "contract": "30.06.2029",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/192.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/624258-1708933100.jpg?lm=1"
+    },
+    {
+      "id": "565822",
+      "name": "Harvey Elliott",
+      "number": "19",
+      "age": "22",
+      "nationalities": [
+        "England"
+      ],
+      "contract": "30.06.2027",
+      "market_value": "€30.00m",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/189.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/565822-1665128076.jpg?lm=1"
+    }
+  ],
+  "team": "fc-liverpool"
+}

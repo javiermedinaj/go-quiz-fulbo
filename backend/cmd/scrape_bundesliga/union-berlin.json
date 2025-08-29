@@ -1,0 +1,365 @@
+{
+  "players": [
+    {
+      "id": "161057",
+      "name": "Carl Klaus",
+      "number": "25",
+      "age": "16/01/1994 (31)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "350 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/161057-1755624992.jpg?lm=1"
+    },
+    {
+      "id": "1027870",
+      "name": "Andrik Markgraf",
+      "number": "3",
+      "age": "07/03/2006 (19)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "-",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1027870-1755624329.jpg?lm=1"
+    },
+    {
+      "id": "341317",
+      "name": "Oliver Burke",
+      "number": "7",
+      "age": "07/04/1997 (28)",
+      "nationalities": [
+        "Escocia"
+      ],
+      "contract": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/190.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/341317-1755624913.jpg?lm=1"
+    },
+    {
+      "id": "107775",
+      "name": "Frederik Rönnow",
+      "number": "1",
+      "age": "04/08/1992 (33)",
+      "nationalities": [
+        "Dinamarca"
+      ],
+      "contract": "3,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/39.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/107775-1692707378.jpg?lm=1"
+    },
+    {
+      "id": "386685",
+      "name": "Matheo Raab",
+      "number": "31",
+      "age": "18/12/1998 (26)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "600 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/386685-1755624725.jpg?lm=1"
+    },
+    {
+      "id": "698840",
+      "name": "Yannic Stein",
+      "number": "12",
+      "age": "17/09/2004 (20)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "200 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/698840-1691614386.jpg?lm=1"
+    },
+    {
+      "id": "357156",
+      "name": "Diogo Leite",
+      "number": "4",
+      "age": "23/01/1999 (26)",
+      "nationalities": [
+        "Portugal"
+      ],
+      "contract": "17,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/136.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/357156-1691999912.jpg?lm=1"
+    },
+    {
+      "id": "597432",
+      "name": "Leopold Querfeld",
+      "number": "14",
+      "age": "20/12/2003 (21)",
+      "nationalities": [
+        "Austria"
+      ],
+      "contract": "13,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/127.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/597432-1726351317.jpg?lm=1"
+    },
+    {
+      "id": "995520",
+      "name": "Oluwaseun Ogbemudia",
+      "number": "41",
+      "age": "18/07/2006 (19)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "-",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/995520-1726351144.jpg?lm=1"
+    },
+    {
+      "id": "124410",
+      "name": "Rani Khedira",
+      "number": "8",
+      "age": "27/01/1994 (31)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/124410-1692707430.jpg?lm=1"
+    },
+    {
+      "id": "337333",
+      "name": "Alex Král",
+      "number": "33",
+      "age": "19/05/1998 (27)",
+      "nationalities": [
+        "República Checa"
+      ],
+      "contract": "6,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/172.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/337333-1691614545.jpg?lm=1"
+    },
+    {
+      "id": "371141",
+      "name": "Stanley Nsoki",
+      "number": "34",
+      "age": "09/04/1999 (26)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/371141-1755624516.jpg?lm=1"
+    },
+    {
+      "id": "454863",
+      "name": "András Schäfer",
+      "number": "13",
+      "age": "13/04/1999 (26)",
+      "nationalities": [
+        "Hungría"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/178.png?lm=1521635893",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/454863-1726351222.jpg?lm=1"
+    },
+    {
+      "id": "519872",
+      "name": "Livan Burcu",
+      "number": "9",
+      "age": "28/09/2004 (20)",
+      "nationalities": [
+        "Turquía"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/174.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/519872-1691615485.jpg?lm=1"
+    },
+    {
+      "id": "583699",
+      "name": "Andrej Ilic",
+      "number": "23",
+      "age": "03/04/2000 (25)",
+      "nationalities": [
+        "Serbia"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/215.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/583699-1726350811.jpg?lm=1"
+    },
+    {
+      "id": "1045446",
+      "name": "Dmytro Bogdanov",
+      "number": "30",
+      "age": "06/03/2007 (18)",
+      "nationalities": [
+        "Ucrania"
+      ],
+      "contract": "250 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/177.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1045446-1755624207.jpg?lm=1"
+    },
+    {
+      "id": "387047",
+      "name": "Danilho Doekhi",
+      "number": "5",
+      "age": "30/06/1998 (27)",
+      "nationalities": [
+        "Países Bajos"
+      ],
+      "contract": "13,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/122.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/387047-1692707468.jpg?lm=1"
+    },
+    {
+      "id": "692737",
+      "name": "Aljoscha Kemlein",
+      "number": "6",
+      "age": "02/08/2004 (21)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "7,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/692737-1691614020.jpg?lm=1"
+    },
+    {
+      "id": "270393",
+      "name": "Robert Skov",
+      "number": "24",
+      "age": "20/05/1996 (29)",
+      "nationalities": [
+        "Dinamarca"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/39.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/270393-1726350741.jpg?lm=1"
+    },
+    {
+      "id": "297583",
+      "name": "Woo-yeong Jeong",
+      "number": "11",
+      "age": "20/09/1999 (25)",
+      "nationalities": [
+        "Corea del Sur"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/87.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/297583-1723707463.jpg?lm=1"
+    },
+    {
+      "id": "838236",
+      "name": "Marin Ljubicic",
+      "number": "27",
+      "age": "28/02/2002 (23)",
+      "nationalities": [
+        "Croacia"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/37.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/838236-1755624645.jpg?lm=1"
+    },
+    {
+      "id": "798043",
+      "name": "Tom Rothe",
+      "number": "15",
+      "age": "29/10/2004 (20)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "10,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/798043-1755624376.jpg?lm=1"
+    },
+    {
+      "id": "362977",
+      "name": "Josip Juranovic",
+      "number": "18",
+      "age": "16/08/1995 (30)",
+      "nationalities": [
+        "Croacia"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/37.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/362977-1691614466.jpg?lm=1"
+    },
+    {
+      "id": "1035765",
+      "name": "Ilyas Ansah",
+      "number": "10",
+      "age": "08/11/2004 (20)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "4,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/1035765-1755624476.jpg?lm=1"
+    },
+    {
+      "id": "391780",
+      "name": "Derrick Köhn",
+      "number": "39",
+      "age": "04/02/1999 (26)",
+      "nationalities": [
+        "Ghana"
+      ],
+      "contract": "5,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/54.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/391780-1707464358.png?lm=1"
+    },
+    {
+      "id": "75921",
+      "name": "Christopher Trimmel",
+      "number": "28",
+      "age": "24/02/1987 (38)",
+      "nationalities": [
+        "Austria"
+      ],
+      "contract": "600 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/127.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/75921-1692707564.jpg?lm=1"
+    },
+    {
+      "id": "287920",
+      "name": "Tim Skarke",
+      "number": "21",
+      "age": "07/09/1996 (28)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "2,00 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/287920-1747224742.jpg?lm=1"
+    },
+    {
+      "id": "353948",
+      "name": "Lucas Tousart",
+      "number": "29",
+      "age": "29/04/1997 (28)",
+      "nationalities": [
+        "Francia"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/50.png?lm=1520611569",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/353948-1691614305.jpg?lm=1"
+    },
+    {
+      "id": "745075",
+      "name": "David Preu",
+      "number": "17",
+      "age": "26/10/2004 (20)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "400 mil €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/745075-1726351060.jpg?lm=1"
+    },
+    {
+      "id": "177779",
+      "name": "Janik Haberer",
+      "number": "19",
+      "age": "02/04/1994 (31)",
+      "nationalities": [
+        "Alemania"
+      ],
+      "contract": "2,50 mill. €",
+      "flag_url": "https://tmssl.akamaized.net//images/flagge/verysmall/40.png?lm=1520612525",
+      "photo_url": "https://img.a.transfermarkt.technology/portrait/medium/177779-1692707721.jpg?lm=1"
+    }
+  ],
+  "team": "1fc-unin-berln"
+}
