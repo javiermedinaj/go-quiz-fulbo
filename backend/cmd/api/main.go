@@ -35,13 +35,8 @@ func main() {
 
 	r.Use(func(c *gin.Context) {
 		c.Header("Access-Control-Allow-Origin", corsOrigin)
-		c.Header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+		c.Header("Access-Control-Allow-Methods", "GET")
 		c.Header("Access-Control-Allow-Headers", "Content-Type")
-
-		if c.Request.Method == "OPTIONS" {
-			c.AbortWithStatus(204)
-			return
-		}
 
 		c.Next()
 	})
@@ -57,6 +52,35 @@ func main() {
 
 	// validate team file segment (allow letters, numbers, dash, underscore, dot and .json suffix)
 	validTeam := regexp.MustCompile(`^[A-Za-z0-9._\-]+\.json$`)
+
+	// Endpoint raíz de la API
+	r.GET("/", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "🏆 API de Fulbo Quiz ⚽",
+			"version": "1.0.0",
+			"description": "API para quiz de fútbol con datos de jugadores de las principales ligas europeas",
+			"status": "active",
+			"endpoints": gin.H{
+				"teams": gin.H{
+					"url": "/api/get/{league}/{team}.json",
+					"description": "Obtener jugadores de un equipo específico",
+				},
+			},
+			"leagues": gin.H{
+				"premier": "Premier League (Inglaterra)",
+				"laligaes": "La Liga (España)", 
+				"bundesliga": "Bundesliga (Alemania)",
+				"seriea": "Serie A (Italia)",
+				"ligue1": "Ligue 1 (Francia)",
+			},
+			"examples": []string{
+				"/api/get/premier/manchester-city.json",
+				"/api/get/laligaes/real-madrid.json",
+				"/api/get/bundesliga/bayern-munich.json",
+			},
+			"author": "FulboQuiz Team",
+		})
+	})
 
 	r.GET("/api/get/:league/:team", func(c *gin.Context) {
 		league := c.Param("league")
@@ -100,7 +124,7 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
-	
+
 	addr := ":" + port
 	fmt.Println("API server listening on", addr)
 	_ = r.Run(addr)
