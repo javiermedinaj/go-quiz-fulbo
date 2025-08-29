@@ -224,15 +224,20 @@ const BingoGame = () => {
           setWrongPlacements(wrongPlacements + 1);
           setScore(Math.max(0, score - 5)); // No bajar de 0
           
-          // Trackear el error con las categorías correctas
+          // Trackear el error con las categorías correctas (todas las válidas, no solo las disponibles)
           const correctCategories = bingoBoard
-            .filter(cat => cat.checkFunction(currentPlayer) && !cat.filled)
+            .filter(cat => cat.checkFunction(currentPlayer))
             .map(cat => cat.title);
           
           const error: GameError = {
             playerName: currentPlayer.name,
             attemptedCategory: clickedCategory.title,
-            correctCategories: correctCategories
+            correctCategories: correctCategories.length > 0 ? correctCategories : [
+              // Si no hay categorías válidas, verificar si es un problema de parseo
+              ...(currentPlayer.nationality ? [`Nacionalidad: ${currentPlayer.nationality}`] : []),
+              ...(currentPlayer.team ? [`Equipo: ${currentPlayer.team}`] : []),
+              ...(currentPlayer.age ? [`Edad: ${currentPlayer.age}`] : [])
+            ]
           };
           
           setGameErrors(prev => [...prev, error]);
@@ -405,12 +410,24 @@ const BingoGame = () => {
                           </div>
                           {error.correctCategories.length > 0 && (
                             <div className="text-sm text-green-400">
-                              Debería estar en: <span className="font-medium">{error.correctCategories.join(', ')}</span>
+                              {error.correctCategories.some(cat => cat.startsWith('Nacionalidad:') || cat.startsWith('Equipo:') || cat.startsWith('Edad:')) ? (
+                                <div>
+                                  <div className="font-medium">Información del jugador:</div>
+                                  {error.correctCategories.map((info, idx) => (
+                                    <div key={idx} className="ml-2">• {info}</div>
+                                  ))}
+                                </div>
+                              ) : (
+                                <div>
+                                  <div className="font-medium">Categorías válidas disponibles:</div>
+                                  <div className="ml-2">{error.correctCategories.join(', ')}</div>
+                                </div>
+                              )}
                             </div>
                           )}
                           {error.correctCategories.length === 0 && (
                             <div className="text-sm text-gray-400">
-                              No pertenecía a ninguna categoría disponible
+                              No se encontraron categorías válidas para este jugador
                             </div>
                           )}
                         </div>
