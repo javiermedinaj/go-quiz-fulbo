@@ -1,0 +1,44 @@
+# Archivos a ignorar durante el build de Docker
+
+# Frontend (no necesario para el backend)
+fulboquiz/
+node_modules/
+
+# Archivos de desarrollo
+.git/
+.gitignore
+README.md
+*.md
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Vercel (no necesarios)
+api/
+vercel.json
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go vendor
+vendor/

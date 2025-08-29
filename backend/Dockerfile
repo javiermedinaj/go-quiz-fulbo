@@ -33,8 +33,16 @@ WORKDIR /root/
 # Copiar el binario compilado
 COPY --from=builder /app/main .
 
+# Crear estructura de directorios para los archivos JSON
+RUN mkdir -p cmd/scrape_bundesliga cmd/scrape_laliga cmd/scrape_ligue1 cmd/scrape_premier cmd/scrape_seriea
+
 # Copiar los archivos JSON de datos
-COPY --from=builder /app/cmd/ ./cmd/
+COPY --from=builder /app/*.json ./
+COPY --from=builder /app/cmd/scrape_bundesliga/*.json ./cmd/scrape_bundesliga/
+COPY --from=builder /app/cmd/scrape_laliga/*.json ./cmd/scrape_laliga/
+COPY --from=builder /app/cmd/scrape_ligue1/*.json ./cmd/scrape_ligue1/
+COPY --from=builder /app/cmd/scrape_premier/*.json ./cmd/scrape_premier/
+COPY --from=builder /app/cmd/scrape_seriea/*.json ./cmd/scrape_seriea/
 
 # Exponer el puerto
 EXPOSE 8080

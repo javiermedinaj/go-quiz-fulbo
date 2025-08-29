@@ -43,11 +43,11 @@ func main() {
 
 	// map allowed league names to directories where JSON files are stored
 	leagues := map[string]string{
-		"laligaes":   filepath.Join("..", "..", "cmd", "scrape_laliga"),
-		"premier":    filepath.Join("..", "..", "cmd", "scrape_premier"),
-		"seriea":     filepath.Join("..", "..", "cmd", "scrape_seriea"),
-		"ligue1":     filepath.Join("..", "..", "cmd", "scrape_ligue1"),
-		"bundesliga": filepath.Join("..", "..", "cmd", "scrape_bundesliga"),
+		"laligaes":   filepath.Join("cmd", "scrape_laliga"),
+		"premier":    filepath.Join("cmd", "scrape_premier"),
+		"seriea":     filepath.Join("cmd", "scrape_seriea"),
+		"ligue1":     filepath.Join("cmd", "scrape_ligue1"),
+		"bundesliga": filepath.Join("cmd", "scrape_bundesliga"),
 	}
 
 	// validate team file segment (allow letters, numbers, dash, underscore, dot and .json suffix)
