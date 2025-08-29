@@ -7,15 +7,19 @@ RUN apk add --no-cache git
 # Establecer directorio de trabajo
 WORKDIR /app
 
-# Copiar go.mod (go.sum se genera automáticamente)
+# Copiar go.mod y go.sum (si existe)
 COPY go.mod ./
+COPY go.su[m] ./
 RUN go mod download
 
 # Copiar el código fuente del backend
 COPY . ./
 
-# Construir la aplicación
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main ./cmd/api
+# Verificar estructura de archivos y construir la aplicación
+RUN ls -la ./
+RUN ls -la ./cmd/
+RUN go mod tidy
+RUN CGO_ENABLED=0 GOOS=linux go build -v -o main ./cmd/api
 
 # Imagen final más pequeña
 FROM alpine:latest
