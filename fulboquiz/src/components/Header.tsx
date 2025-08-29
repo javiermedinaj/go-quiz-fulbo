@@ -16,7 +16,7 @@ const Header = () => {
               <span className="text-white font-bold text-lg">⚽</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Testt prod
+                nico puto 
             </span>
           </Link>
 
