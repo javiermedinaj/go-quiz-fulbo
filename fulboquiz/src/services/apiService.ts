@@ -28,6 +28,25 @@ interface BackendResponse {
 
 class ApiService {
   private static readonly BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+  
+  // Helper function to extract age from format "06/02/1995 (30)"
+  private static extractAge(ageString: string): number | null {
+    if (!ageString) return null;
+    
+    // Try to extract from parentheses first (e.g., "06/02/1995 (30)")
+    const matches = ageString.match(/\((\d+)\)/);
+    if (matches && matches[1]) {
+      return parseInt(matches[1]);
+    }
+    
+    // Fallback to direct number if it's just a number
+    const numMatch = ageString.match(/^\d+$/);
+    if (numMatch) {
+      return parseInt(ageString);
+    }
+    
+    return null;
+  }
   private static readonly CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
   private cache = new Map<string, { data: any; timestamp: number }>();
 
@@ -223,7 +242,7 @@ class ApiService {
         player.name.trim() !== '' &&
         player.team.trim() !== '' &&
         player.nationality.trim() !== '' &&
-        !isNaN(parseInt(player.age))
+        ApiService.extractAge(player.age) !== null
       );
 
       if (validPlayers.length === 0) {
@@ -241,9 +260,18 @@ class ApiService {
         manchesterCity: validPlayers.filter(p => p.team?.toLowerCase().includes('manchester-city') || p.team?.toLowerCase().includes('manchester city')),
         realMadrid: validPlayers.filter(p => p.team?.toLowerCase().includes('real-madrid') || p.team?.toLowerCase().includes('real madrid')),
         barcelona: validPlayers.filter(p => p.team?.toLowerCase().includes('barcelona')),
-        young: validPlayers.filter(p => !isNaN(parseInt(p.age)) && parseInt(p.age) < 25),
-        veteran: validPlayers.filter(p => !isNaN(parseInt(p.age)) && parseInt(p.age) > 30),
-        prime: validPlayers.filter(p => !isNaN(parseInt(p.age)) && parseInt(p.age) >= 25 && parseInt(p.age) <= 30)
+        young: validPlayers.filter(p => {
+          const age = ApiService.extractAge(p.age);
+          return age !== null && age < 25;
+        }),
+        veteran: validPlayers.filter(p => {
+          const age = ApiService.extractAge(p.age);
+          return age !== null && age > 30;
+        }),
+        prime: validPlayers.filter(p => {
+          const age = ApiService.extractAge(p.age);
+          return age !== null && age >= 25 && age <= 30;
+        })
       };
 
       // Seleccionar jugadores balanceados de cada categoría

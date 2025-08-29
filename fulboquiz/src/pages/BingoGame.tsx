@@ -94,7 +94,9 @@ const BingoGame = () => {
         id: 'young',
         title: 'Menor de 25',
         checkFunction: (player) => {
-          const age = parseInt(player.age);
+          // Extraer la edad del formato "06/02/1995 (30)"
+          const ageMatch = player.age.match(/\((\d+)\)/);
+          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
           return !isNaN(age) && age < 25;
         },
         filled: false
@@ -103,7 +105,9 @@ const BingoGame = () => {
         id: 'veteran',
         title: 'Mayor de 30',
         checkFunction: (player) => {
-          const age = parseInt(player.age);
+          // Extraer la edad del formato "06/02/1995 (30)"
+          const ageMatch = player.age.match(/\((\d+)\)/);
+          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
           return !isNaN(age) && age > 30;
         },
         filled: false
@@ -112,7 +116,9 @@ const BingoGame = () => {
         id: 'prime',
         title: '25-30 años',
         checkFunction: (player) => {
-          const age = parseInt(player.age);
+          // Extraer la edad del formato "06/02/1995 (30)"
+          const ageMatch = player.age.match(/\((\d+)\)/);
+          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
           return !isNaN(age) && age >= 25 && age <= 30;
         },
         filled: false
