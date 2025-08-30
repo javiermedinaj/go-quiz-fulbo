@@ -32,42 +32,62 @@ const BingoGame = () => {
 
   // Crear el tablero de bingo con categorías claras y específicas
   const createBingoBoard = useCallback((): BingoCategory[] => {
+    // Helper to parse age from strings like "06/02/1995 (30)" or plain "22"
+    const parseAge = (ageStr?: string): number => {
+      if (!ageStr) return NaN;
+      // Try parentheses first
+      const par = ageStr.match(/\((\d+)\)/);
+      if (par && par[1]) return parseInt(par[1], 10);
+      // Fallback to any number in the string (e.g., "22")
+      const num = ageStr.match(/(\d+)/);
+      return num ? parseInt(num[1], 10) : NaN;
+    };
+
+    // Helper to normalize nationality and check variants
+    const nationalityMatches = (player: Player | undefined, variants: string[]) => {
+      const raw = (player?.nationality || '').toLowerCase();
+      if (!raw) return false;
+      // Remove diacritics (ñ, á, é, etc.) to compare safely
+      const norm = raw.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+      return variants.some(v => norm.includes(v));
+    };
+
     const categories: BingoCategory[] = [
-      // Nacionalidades específicas
+      // Nacionalidades específicas (aceptar variantes y traducciones)
       {
         id: 'england',
         title: 'Inglaterra',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'england',
+        checkFunction: (player) => nationalityMatches(player, ['england', 'english', 'inglaterra']),
         filled: false
       },
       {
         id: 'spain',
         title: 'España',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'spain',
+        checkFunction: (player) => nationalityMatches(player, ['spain', 'espana', 'espana', 'espana', 'espanol', 'espanola', 'españa']),
         filled: false
       },
       {
         id: 'france',
         title: 'Francia',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'france',
+        checkFunction: (player) => nationalityMatches(player, ['france', 'frances', 'francais', 'francais', 'francia', 'french']),
         filled: false
       },
       {
         id: 'germany',
         title: 'Alemania',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'germany',
+        checkFunction: (player) => nationalityMatches(player, ['germany', 'deutschland', 'alemania', 'german']),
         filled: false
       },
       {
         id: 'brazil',
         title: 'Brasil',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'brazil',
+        checkFunction: (player) => nationalityMatches(player, ['brazil', 'brasil', 'brazilian', 'brasileiro']),
         filled: false
       },
       {
         id: 'portugal',
         title: 'Portugal',
-        checkFunction: (player) => player.nationality?.toLowerCase() === 'portugal',
+        checkFunction: (player) => nationalityMatches(player, ['portugal', 'portugues', 'portuguese']),
         filled: false
       },
       // Equipos específicos
@@ -94,9 +114,7 @@ const BingoGame = () => {
         id: 'young',
         title: 'Menor de 25',
         checkFunction: (player) => {
-          // Extraer la edad del formato "06/02/1995 (30)"
-          const ageMatch = player.age.match(/\((\d+)\)/);
-          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
+          const age = parseAge(player.age);
           return !isNaN(age) && age < 25;
         },
         filled: false
@@ -105,9 +123,7 @@ const BingoGame = () => {
         id: 'veteran',
         title: 'Mayor de 30',
         checkFunction: (player) => {
-          // Extraer la edad del formato "06/02/1995 (30)"
-          const ageMatch = player.age.match(/\((\d+)\)/);
-          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
+          const age = parseAge(player.age);
           return !isNaN(age) && age > 30;
         },
         filled: false
@@ -116,9 +132,7 @@ const BingoGame = () => {
         id: 'prime',
         title: '25-30 años',
         checkFunction: (player) => {
-          // Extraer la edad del formato "06/02/1995 (30)"
-          const ageMatch = player.age.match(/\((\d+)\)/);
-          const age = ageMatch ? parseInt(ageMatch[1]) : NaN;
+          const age = parseAge(player.age);
           return !isNaN(age) && age >= 25 && age <= 30;
         },
         filled: false
@@ -213,50 +227,61 @@ const BingoGame = () => {
     const clickedCategory = bingoBoard.find(cat => cat.id === categoryId);
     if (!clickedCategory || clickedCategory.filled) return;
 
-    const updatedBoard = bingoBoard.map(category => {
-      if (category.id === categoryId && !category.filled) {
-        const isCorrect = category.checkFunction(currentPlayer);
-        
-        if (isCorrect) {
-          setCorrectPlacements(correctPlacements + 1);
-          setScore(score + 10);
-        } else {
-          setWrongPlacements(wrongPlacements + 1);
-          setScore(Math.max(0, score - 5)); // No bajar de 0
-          
-          // Trackear el error con las categorías correctas (todas las válidas, no solo las disponibles)
-          const correctCategories = bingoBoard
-            .filter(cat => cat.checkFunction(currentPlayer))
-            .map(cat => cat.title);
-          
-          const error: GameError = {
-            playerName: currentPlayer.name,
-            attemptedCategory: clickedCategory.title,
-            correctCategories: correctCategories.length > 0 ? correctCategories : [
-              // Si no hay categorías válidas, verificar si es un problema de parseo
-              ...(currentPlayer.nationality ? [`Nacionalidad: ${currentPlayer.nationality}`] : []),
-              ...(currentPlayer.team ? [`Equipo: ${currentPlayer.team}`] : []),
-              ...(currentPlayer.age ? [`Edad: ${currentPlayer.age}`] : [])
-            ]
-          };
-          
-          setGameErrors(prev => [...prev, error]);
-        }
+    // We'll build a finalBoard depending on correct/incorrect placement
+    let finalBoard = bingoBoard.slice();
+    let filledCount = 0;
 
-        return {
-          ...category,
-          filled: true,
-          playerName: currentPlayer.name
+    // Find the clicked category first
+    const target = bingoBoard.find(cat => cat.id === categoryId);
+    if (target && !target.filled) {
+      const isCorrect = target.checkFunction(currentPlayer);
+
+      if (isCorrect) {
+        finalBoard = bingoBoard.map(cat => {
+          if (!cat.filled && cat.checkFunction(currentPlayer)) {
+            filledCount += 1;
+            return { ...cat, filled: true, playerName: currentPlayer.name };
+          }
+          return cat;
+        });
+
+        setCorrectPlacements(prev => prev + filledCount);
+        setScore(prev => prev + 10 * filledCount);
+      } else {
+        // incorrect: mark only the attempted category as filled and record error
+        finalBoard = bingoBoard.map(cat => {
+          if (cat.id === categoryId) {
+            return { ...cat, filled: true, playerName: currentPlayer.name };
+          }
+          return cat;
+        });
+
+        setWrongPlacements(prev => prev + 1);
+        setScore(prev => Math.max(0, prev - 5));
+
+        const correctCategories = bingoBoard
+          .filter(cat => cat.checkFunction(currentPlayer))
+          .map(cat => cat.title);
+
+        const error: GameError = {
+          playerName: currentPlayer.name,
+          attemptedCategory: clickedCategory.title,
+          correctCategories: correctCategories.length > 0 ? correctCategories : [
+            ...(currentPlayer.nationality ? [`Nacionalidad: ${currentPlayer.nationality}`] : []),
+            ...(currentPlayer.team ? [`Equipo: ${currentPlayer.team}`] : []),
+            ...(currentPlayer.age ? [`Edad: ${currentPlayer.age}`] : [])
+          ]
         };
-      }
-      return category;
-    });
 
-    setBingoBoard(updatedBoard);
+        setGameErrors(prev => [...prev, error]);
+      }
+    }
+
+    setBingoBoard(finalBoard);
     nextPlayer();
 
     // Verificar si el tablero está completo
-    if (updatedBoard.every(cat => cat.filled)) {
+    if (finalBoard.every(cat => cat.filled)) {
       setGameFinished(true);
     }
   };
@@ -469,6 +494,43 @@ const BingoGame = () => {
                     <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
                       {currentPlayer.name}
                     </h3>
+                    
+                    {/* Mostrar información del jugador */}
+                    <div className="text-sm text-gray-300 mb-4 space-y-1">
+                      {currentPlayer.nationality && (
+                        <div>🇫🇷 Nacionalidad: {currentPlayer.nationality}</div>
+                      )}
+                      {currentPlayer.team && (
+                        <div>⚽ Equipo: {currentPlayer.team}</div>
+                      )}
+                      {currentPlayer.age && (
+                        <div>🎂 Edad: {currentPlayer.age}</div>
+                      )}
+                    </div>
+                    
+                    {/* Mostrar categorías válidas */}
+                    {(() => {
+                      const validCategories = bingoBoard
+                        .filter(cat => cat.checkFunction(currentPlayer))
+                        .map(cat => cat.title);
+                      
+                      return validCategories.length > 0 ? (
+                        <div className="bg-green-900/20 border border-green-800 rounded-lg p-3 mb-4">
+                          <div className="text-sm text-green-300 font-medium mb-2">
+                            ✅ Categorías válidas:
+                          </div>
+                          <div className="text-sm text-green-200">
+                            {validCategories.join(', ')}
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="bg-yellow-900/20 border border-yellow-800 rounded-lg p-3 mb-4">
+                          <div className="text-sm text-yellow-300">
+                            ⚠️ No hay categorías disponibles para este jugador
+                          </div>
+                        </div>
+                      );
+                    })()}
                   </div>
                   
                   <button 

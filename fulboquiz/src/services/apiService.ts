@@ -28,7 +28,6 @@ interface BackendResponse {
 
 class ApiService {
   private static readonly BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
-  
   // Helper function to extract age from format "06/02/1995 (30)"
   private static extractAge(ageString: string): number | null {
     if (!ageString) return null;

@@ -41,13 +41,32 @@ func main() {
 		c.Next()
 	})
 
+	// helper to find the correct data directory among common locations (local dev vs container)
+	findDataDir := func(subdir string) string {
+		candidates := []string{
+			filepath.Join("cmd", subdir),
+			filepath.Join("..", "cmd", subdir),
+			filepath.Join("..", "..", "cmd", subdir),
+		}
+		for _, p := range candidates {
+			if info, err := os.Stat(p); err == nil && info.IsDir() {
+				fmt.Printf("Using data dir: %s\n", p)
+				return p
+			}
+		}
+		// fallback to the first candidate
+		fallback := filepath.Join("cmd", subdir)
+		fmt.Printf("Warning: data dir not found, using fallback: %s\n", fallback)
+		return fallback
+	}
+
 	// map allowed league names to directories where JSON files are stored
 	leagues := map[string]string{
-		"laligaes":   filepath.Join("cmd", "scrape_laliga"),
-		"premier":    filepath.Join("cmd", "scrape_premier"),
-		"seriea":     filepath.Join("cmd", "scrape_seriea"),
-		"ligue1":     filepath.Join("cmd", "scrape_ligue1"),
-		"bundesliga": filepath.Join("cmd", "scrape_bundesliga"),
+		"laligaes":   findDataDir("scrape_laliga"),
+		"premier":    findDataDir("scrape_premier"),
+		"seriea":     findDataDir("scrape_seriea"),
+		"ligue1":     findDataDir("scrape_ligue1"),
+		"bundesliga": findDataDir("scrape_bundesliga"),
 	}
 
 	// validate team file segment (allow letters, numbers, dash, underscore, dot and .json suffix)
