@@ -1,5 +1,18 @@
 package main
 
+// API Server para FutbolQuiz - v1.1 (con preguntas)
+//
+// Rutas disponibles:
+// - GET /                              - Health check y información de la API
+// - GET /api/list/:league              - Lista equipos de una liga (premier, laliga, bundesliga, seriea, ligue1)
+// - GET /api/get/:league/:team         - Obtiene jugadores de un equipo específico
+// - GET /api/quiz/questions            - Obtiene preguntas de quiz (parámetro opcional: ?count=N)
+//
+// Ejemplo de uso:
+// - GET /api/list/premier              - Lista equipos de Premier League
+// - GET /api/get/premier/arsenal       - Obtiene jugadores del Arsenal
+// - GET /api/quiz/questions?count=10   - Obtiene 10 preguntas de quiz aleatorias
+
 import (
 	"encoding/json"
 	"fmt"
