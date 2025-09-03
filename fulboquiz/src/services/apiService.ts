@@ -354,6 +354,45 @@ class ApiService {
     }
   }
 
+  // Obtener preguntas del quiz
+  async getQuizQuestions(count?: number): Promise<any> {
+    try {
+      const cacheKey = `quiz_questions_${count || 'all'}`;
+      
+      // Check cache first
+      const cached = this.cache.get(cacheKey);
+      if (cached && Date.now() - cached.timestamp < ApiService.CACHE_DURATION) {
+        console.log('Returning cached quiz questions');
+        return cached.data;
+      }
+
+      let url = `${ApiService.BASE_URL}/api/quiz/questions`;
+      if (count) {
+        url += `?count=${count}`;
+      }
+
+      console.log('Fetching quiz questions from:', url);
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      // Cache the response
+      this.cache.set(cacheKey, {
+        data,
+        timestamp: Date.now()
+      });
+      
+      return data;
+    } catch (error) {
+      console.error('Error getting quiz questions:', error);
+      throw error;
+    }
+  }
+
   // Limpiar cache manualmente si es necesario
   clearCache(): void {
     this.cache.clear();

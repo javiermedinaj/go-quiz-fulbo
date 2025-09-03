@@ -110,7 +110,7 @@ const NationalityQuiz = () => {
 
   const getOptionStyle = (option: string) => {
     if (!showResult) {
-      return 'bg-gray-800 hover:bg-gray-700 border-gray-600 hover:border-gray-500 text-gray-100';
+      return 'bg-white/5 hover:bg-white/10 border-white/20 hover:border-white/30 text-white';
     }
     
     if (option === currentPlayer?.nationality) {
@@ -121,7 +121,7 @@ const NationalityQuiz = () => {
       return 'bg-red-600 border-red-500 text-white';
     }
     
-    return 'bg-gray-800 border-gray-600 text-gray-400';
+    return 'bg-white/5 border-white/10 text-white/50';
   };
 
   useEffect(() => {
@@ -130,11 +130,11 @@ const NationalityQuiz = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+      <div className="min-h-screen bg-black">
         <div className="max-w-4xl mx-auto px-4 py-12">
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-400 text-lg">Cargando pregunta...</p>
+            <p className="text-white/70 text-lg">Cargando pregunta...</p>
           </div>
         </div>
       </div>
@@ -142,16 +142,16 @@ const NationalityQuiz = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+    <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
-        <div className="card mb-8">
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-8">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Quiz de Nacionalidad
               </h1>
-              <p className="text-gray-400">
+              <p className="text-white/70">
                 ¿De qué país es este jugador?
               </p>
             </div>
@@ -160,19 +160,19 @@ const NationalityQuiz = () => {
                 <div className="text-2xl font-bold text-blue-400">
                   {score}/{questionsAnswered}
                 </div>
-                <div className="text-gray-500 text-sm">Puntuación</div>
+                <div className="text-white/50 text-sm">Puntuación</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-green-400">
                   {questionsAnswered}/{totalQuestions}
                 </div>
-                <div className="text-gray-500 text-sm">Progreso</div>
+                <div className="text-white/50 text-sm">Progreso</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-purple-400">
                   {streak}
                 </div>
-                <div className="text-gray-500 text-sm">Racha</div>
+                <div className="text-white/50 text-sm">Racha</div>
               </div>
             </div>
           </div>
@@ -180,14 +180,14 @@ const NationalityQuiz = () => {
 
         {/* Player Card */}
         {currentPlayer && !gameFinished && (
-          <div className="card mb-8 text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-8 text-center">
             <div className="mb-6">
               {currentPlayer.photo_url && (
                 <div className="relative inline-block">
                   <img 
                     src={currentPlayer.photo_url} 
                     alt="Jugador"
-                    className="w-32 h-32 md:w-48 md:h-48 rounded-2xl mx-auto object-cover shadow-2xl border border-gray-700"
+                    className="w-32 h-32 md:w-48 md:h-48 rounded-2xl mx-auto object-cover shadow-2xl border border-white/20"
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = 'none';
                     }}
@@ -233,7 +233,7 @@ const NationalityQuiz = () => {
 
         {/* Result */}
         {showResult && !gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
             <div className={`text-2xl font-bold mb-4 ${
               selectedAnswer === currentPlayer?.nationality ? 'text-green-400' : 'text-red-400'
             }`}>
@@ -241,12 +241,12 @@ const NationalityQuiz = () => {
             </div>
             
             {selectedAnswer !== currentPlayer?.nationality && (
-              <p className="text-gray-400 mb-6">
+              <p className="text-white/70 mb-6">
                 La respuesta correcta era: <span className="text-green-400 font-semibold">{currentPlayer?.nationality}</span>
               </p>
             )}
             
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-white/50">
               {questionsAnswered >= totalQuestions ? 'Mostrando resultados...' : 'Avanzando automáticamente en 2 segundos...'}
             </p>
           </div>
@@ -254,29 +254,29 @@ const NationalityQuiz = () => {
 
         {/* Final Results */}
         {gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="text-4xl font-bold text-blue-400 mb-6">
               ¡Quiz Completado! 🏆
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-green-400 mb-2">
                   {score}/{totalQuestions}
                 </div>
-                <div className="text-gray-400">Respuestas Correctas</div>
+                <div className="text-white/50">Respuestas Correctas</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-purple-400 mb-2">
                   {Math.round((score / totalQuestions) * 100)}%
                 </div>
-                <div className="text-gray-400">Porcentaje</div>
+                <div className="text-white/50">Porcentaje</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-yellow-400 mb-2">
                   {bestStreak}
                 </div>
-                <div className="text-gray-400">Mejor Racha</div>
+                <div className="text-white/50">Mejor Racha</div>
               </div>
             </div>
 
@@ -298,13 +298,13 @@ const NationalityQuiz = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={restartGame}
-                className="btn-primary"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200 hover:scale-105"
               >
                 Jugar de Nuevo
               </button>
               <button 
                 onClick={() => window.location.href = '/'}
-                className="btn-secondary"
+                className="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-6 rounded-lg border border-white/20 hover:border-white/30 transition-all duration-200"
               >
                 Volver al Inicio
               </button>

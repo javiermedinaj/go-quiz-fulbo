@@ -143,21 +143,21 @@ const TeamQuiz = () => {
     
     if (!showResult) {
       return isSelected 
-        ? 'card-hover border-blue-500 bg-blue-500/10' 
-        : 'card-hover border-gray-700';
+        ? 'bg-white/10 backdrop-blur-sm border border-blue-500 rounded-xl p-4 cursor-pointer hover:bg-white/15 transition-all duration-200' 
+        : 'bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 cursor-pointer hover:bg-white/10 transition-all duration-200';
     }
     
     const isCorrectPlayer = player.team === correctTeam;
     
     if (isSelected && isCorrectPlayer) {
-      return 'card border-green-500 bg-green-500/10';
+      return 'bg-green-500/20 backdrop-blur-sm border border-green-500 rounded-xl p-4';
     } else if (isSelected && !isCorrectPlayer) {
-      return 'card border-red-500 bg-red-500/10';
+      return 'bg-red-500/20 backdrop-blur-sm border border-red-500 rounded-xl p-4';
     } else if (!isSelected && isCorrectPlayer) {
-      return 'card border-yellow-500 bg-yellow-500/10';
+      return 'bg-yellow-500/20 backdrop-blur-sm border border-yellow-500 rounded-xl p-4';
     }
     
-    return 'card border-gray-700';
+    return 'bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4';
   };
 
   useEffect(() => {
@@ -166,11 +166,11 @@ const TeamQuiz = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+      <div className="min-h-screen bg-black">
         <div className="max-w-6xl mx-auto px-4 py-12">
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-400 text-lg">Cargando pregunta...</p>
+            <p className="text-white/70 text-lg">Cargando pregunta...</p>
           </div>
         </div>
       </div>
@@ -178,16 +178,16 @@ const TeamQuiz = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+    <div className="min-h-screen bg-black">
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Header */}
-        <div className="card mb-8">
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-8">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Quiz: Mismo Equipo
               </h1>
-              <p className="text-gray-400">
+              <p className="text-white/70">
                 Selecciona los jugadores que juegan en el mismo equipo
               </p>
             </div>
@@ -196,19 +196,19 @@ const TeamQuiz = () => {
                 <div className="text-2xl font-bold text-blue-400">
                   {score}/{questionsAnswered}
                 </div>
-                <div className="text-gray-500 text-sm">Puntuación</div>
+                <div className="text-white/50 text-sm">Puntuación</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-green-400">
                   {questionsAnswered}/{totalQuestions}
                 </div>
-                <div className="text-gray-500 text-sm">Progreso</div>
+                <div className="text-white/50 text-sm">Progreso</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-purple-400">
                   {streak}
                 </div>
-                <div className="text-gray-500 text-sm">Racha</div>
+                <div className="text-white/50 text-sm">Racha</div>
               </div>
             </div>
           </div>
@@ -216,7 +216,7 @@ const TeamQuiz = () => {
 
         {/* Instructions */}
         {!gameFinished && (
-        <div className="card mb-6 bg-blue-900/20 border-blue-800">
+        <div className="bg-blue-900/20 backdrop-blur-sm border border-blue-800 rounded-xl p-6 mb-6">
           <div className="flex items-start space-x-3">
             <div className="text-blue-400 text-xl flex-shrink-0">💡</div>
             <div>
@@ -245,7 +245,7 @@ const TeamQuiz = () => {
                   <img 
                     src={player.photo_url} 
                     alt={player.name}
-                    className="w-16 h-16 md:w-20 md:h-20 rounded-full mx-auto object-cover border-2 border-gray-600"
+                    className="w-16 h-16 md:w-20 md:h-20 rounded-full mx-auto object-cover border-2 border-white/20"
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = 'none';
                     }}
@@ -288,14 +288,16 @@ const TeamQuiz = () => {
 
         {/* Controls */}
         {!showResult && !gameFinished && (
-          <div className="card text-center">
-            <p className="text-gray-400 mb-4">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
+            <p className="text-white/70 mb-4">
               Jugadores seleccionados: <span className="text-blue-400 font-semibold">{selectedPlayers.length}</span>
             </p>
             <button 
               onClick={submitAnswer}
               disabled={selectedPlayers.length < 2}
-              className="btn-primary"
+              className={`bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200 ${
+                selectedPlayers.length < 2 ? 'opacity-50 cursor-not-allowed' : 'hover:scale-105'
+              }`}
             >
               Enviar Respuesta
             </button>
@@ -304,7 +306,7 @@ const TeamQuiz = () => {
 
         {/* Result */}
         {showResult && !gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
             <div className="mb-4">
               {(() => {
                 const teams = [...new Set(selectedPlayers.map(p => p.team))];
@@ -320,14 +322,14 @@ const TeamQuiz = () => {
               })()}
             </div>
             
-            <p className="text-gray-400 mb-6">
+            <p className="text-white/70 mb-6">
               {correctTeam !== 'ninguno' 
                 ? `Los jugadores correctos eran los de: ${correctTeam}`
                 : 'En esta ronda no había jugadores del mismo equipo'
               }
             </p>
             
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-white/50">
               Avanzando automáticamente en 2 segundos...
             </p>
           </div>
@@ -335,29 +337,29 @@ const TeamQuiz = () => {
 
         {/* Final Results */}
         {gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="text-4xl font-bold text-blue-400 mb-6">
               ¡Quiz Completado! 🏆
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-green-400 mb-2">
                   {score}/{totalQuestions}
                 </div>
-                <div className="text-gray-400">Respuestas Correctas</div>
+                <div className="text-white/50">Respuestas Correctas</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-purple-400 mb-2">
                   {Math.round((score / totalQuestions) * 100)}%
                 </div>
-                <div className="text-gray-400">Porcentaje</div>
+                <div className="text-white/50">Porcentaje</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-yellow-400 mb-2">
                   {streak}
                 </div>
-                <div className="text-gray-400">Mejor Racha</div>
+                <div className="text-white/50">Mejor Racha</div>
               </div>
             </div>
 
@@ -379,13 +381,13 @@ const TeamQuiz = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={restartGame}
-                className="btn-primary"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200 hover:scale-105"
               >
                 Jugar de Nuevo
               </button>
               <button 
                 onClick={() => window.location.href = '/'}
-                className="btn-secondary"
+                className="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-6 rounded-lg border border-white/20 hover:border-white/30 transition-all duration-200"
               >
                 Volver al Inicio
               </button>

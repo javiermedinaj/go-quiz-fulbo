@@ -4,16 +4,34 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
+	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
+
+type QuizQuestion struct {
+	GameData struct {
+		Question string   `json:"question"`
+		Answers  []string `json:"answers"`
+	} `json:"gameData"`
+}
+
+type QuizQuestionsResponse struct {
+	Questions []QuizQuestion `json:"questions"`
+}
+
+type QuizGameRequest struct {
+	Count int `json:"count"` // Número de preguntas que quiere el cliente
+}
 
 func main() {
 	err := godotenv.Load("../../.env")
@@ -76,6 +94,11 @@ func main() {
 				"teams": gin.H{
 					"url":         "/api/get/{league}/{team}.json",
 					"description": "Obtener jugadores de un equipo específico",
+				},
+				"quiz": gin.H{
+					"url":         "/api/quiz/questions",
+					"description": "Obtener preguntas para el quiz",
+					"params":      "?count=10 (opcional, por defecto todas)",
 				},
 			},
 			"leagues": gin.H{
@@ -173,6 +196,78 @@ func main() {
 		}
 
 		c.File(filePath)
+	})
+
+	// Endpoint para obtener preguntas del quiz
+	r.GET("/api/quiz/questions", func(c *gin.Context) {
+		// Buscar el archivo all_questions.json
+		questionsFile := ""
+		candidates := []string{
+			filepath.Join("cmd", "scrape_questions", "data", "all_questions.json"),
+			filepath.Join("..", "cmd", "scrape_questions", "data", "all_questions.json"),
+			filepath.Join("..", "..", "cmd", "scrape_questions", "data", "all_questions.json"),
+		}
+
+		for _, candidate := range candidates {
+			if _, err := os.Stat(candidate); err == nil {
+				questionsFile = candidate
+				break
+			}
+		}
+
+		if questionsFile == "" {
+			c.JSON(http.StatusNotFound, gin.H{
+				"error":   "questions file not found",
+				"message": "El archivo all_questions.json no se encontró",
+			})
+			return
+		}
+
+		// Leer el archivo
+		data, err := os.ReadFile(questionsFile)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "could not read questions file",
+				"message": err.Error(),
+			})
+			return
+		}
+
+		var questionsData QuizQuestionsResponse
+		if err := json.Unmarshal(data, &questionsData); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "could not parse questions file",
+				"message": err.Error(),
+			})
+			return
+		}
+
+		// Obtener el parámetro count si existe
+		countParam := c.Query("count")
+
+		questions := questionsData.Questions
+
+		// Si se especifica un count, mezclar y tomar solo esa cantidad
+		if countParam != "" {
+			if count, err := strconv.Atoi(countParam); err == nil && count > 0 {
+				// Mezclar las preguntas
+				rand.Seed(time.Now().UnixNano())
+				rand.Shuffle(len(questions), func(i, j int) {
+					questions[i], questions[j] = questions[j], questions[i]
+				})
+
+				// Tomar solo la cantidad solicitada
+				if count < len(questions) {
+					questions = questions[:count]
+				}
+			}
+		}
+
+		c.JSON(http.StatusOK, gin.H{
+			"total":     len(questionsData.Questions),
+			"returned":  len(questions),
+			"questions": questions,
+		})
 	})
 
 	port := os.Getenv("PORT")

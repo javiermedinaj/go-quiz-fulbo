@@ -181,7 +181,7 @@ const AgeQuiz = () => {
 
   const getOptionStyle = (option: number) => {
     if (!showResult) {
-      return 'bg-gray-800 hover:bg-gray-700 border-gray-600 hover:border-gray-500 text-gray-100 hover:scale-105';
+      return 'bg-white/5 hover:bg-white/10 border-white/20 hover:border-white/30 text-white hover:scale-105';
     }
     
     if (option === actualAge) {
@@ -192,7 +192,7 @@ const AgeQuiz = () => {
       return 'bg-red-600 border-red-500 text-white';
     }
     
-    return 'bg-gray-800 border-gray-600 text-gray-400';
+    return 'bg-white/5 border-white/10 text-white/50';
   };
 
   useEffect(() => {
@@ -201,11 +201,11 @@ const AgeQuiz = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+      <div className="min-h-screen bg-black">
         <div className="max-w-4xl mx-auto px-4 py-12">
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-400 text-lg">Cargando pregunta...</p>
+            <p className="text-white/70 text-lg">Cargando pregunta...</p>
           </div>
         </div>
       </div>
@@ -213,16 +213,16 @@ const AgeQuiz = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black">
+    <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
-        <div className="card mb-8">
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-8">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
               <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Quiz de Edad
               </h1>
-              <p className="text-gray-400">
+              <p className="text-white/70">
                 ¿Cuántos años tiene este jugador?
               </p>
             </div>
@@ -231,19 +231,19 @@ const AgeQuiz = () => {
                 <div className="text-2xl font-bold text-blue-400">
                   {score}
                 </div>
-                <div className="text-gray-500 text-sm">Puntos</div>
+                <div className="text-white/50 text-sm">Puntos</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-green-400">
                   {questionsAnswered}/{totalQuestions}
                 </div>
-                <div className="text-gray-500 text-sm">Progreso</div>
+                <div className="text-white/50 text-sm">Progreso</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-purple-400">
                   {streak}
                 </div>
-                <div className="text-gray-500 text-sm">Racha</div>
+                <div className="text-white/50 text-sm">Racha</div>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ const AgeQuiz = () => {
 
         {/* Instructions */}
         {!gameFinished && (
-        <div className="card mb-6 bg-purple-900/20 border-purple-800">
+        <div className="bg-purple-900/20 backdrop-blur-sm border border-purple-800 rounded-xl p-6 mb-6">
           <div className="flex items-start space-x-3">
             <div className="text-purple-400 text-xl flex-shrink-0">🎯</div>
             <div>
@@ -271,14 +271,14 @@ const AgeQuiz = () => {
 
         {/* Player Card */}
         {currentPlayer && !gameFinished && (
-          <div className="card mb-8 text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-8 text-center">
             <div className="mb-6">
               {currentPlayer.photo_url && (
                 <div className="relative inline-block">
                   <img 
                     src={currentPlayer.photo_url} 
                     alt="Jugador"
-                    className="w-32 h-32 md:w-48 md:h-48 rounded-2xl mx-auto object-cover shadow-2xl border border-gray-700"
+                    className="w-32 h-32 md:w-48 md:h-48 rounded-2xl mx-auto object-cover shadow-2xl border border-white/20"
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = 'none';
                     }}
@@ -296,7 +296,6 @@ const AgeQuiz = () => {
           </div>
         )}
 
-        {/* Options */}
         {!showResult && !gameFinished && (
           <div className="grid grid-cols-2 gap-4 mb-8">
             {options.map((option, index) => (
@@ -312,18 +311,16 @@ const AgeQuiz = () => {
             ))}
           </div>
         )}
-
-        {/* Result */}
         {showResult && !gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center">
             <div className="mb-6">
               <div className={`text-3xl font-bold mb-2 ${getDifferenceMessage().color}`}>
                 {getDifferenceMessage().message}
               </div>
-              <div className="text-xl text-gray-300 mb-4">
+              <div className="text-xl text-white/70 mb-4">
                 Tu respuesta: <span className="text-blue-400 font-semibold">{selectedAnswer} años</span>
               </div>
-              <div className="text-xl text-gray-300 mb-4">
+              <div className="text-xl text-white/70 mb-4">
                 Edad real: <span className="text-green-400 font-semibold">{actualAge} años</span>
               </div>
               <div className="text-2xl font-bold text-purple-400">
@@ -331,37 +328,35 @@ const AgeQuiz = () => {
               </div>
             </div>
             
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-white/50">
               {questionsAnswered >= totalQuestions ? 'Mostrando resultados...' : 'Avanzando automáticamente en 2 segundos...'}
             </p>
           </div>
         )}
-
-        {/* Final Results */}
         {gameFinished && (
-          <div className="card text-center">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 text-center">
             <div className="text-4xl font-bold text-blue-400 mb-6">
               ¡Quiz Completado! 🏆
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-green-400 mb-2">
                   {score}/{totalQuestions * 10}
                 </div>
-                <div className="text-gray-400">Puntos Totales</div>
+                <div className="text-white/50">Puntos Totales</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-purple-400 mb-2">
                   {Math.round((score / (totalQuestions * 10)) * 100)}%
                 </div>
-                <div className="text-gray-400">Precisión</div>
+                <div className="text-white/50">Precisión</div>
               </div>
-              <div className="bg-gray-800 rounded-xl p-6">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-6">
                 <div className="text-3xl font-bold text-yellow-400 mb-2">
                   {streak}
                 </div>
-                <div className="text-gray-400">Mejor Racha</div>
+                <div className="text-white/50">Mejor Racha</div>
               </div>
             </div>
 
@@ -383,13 +378,13 @@ const AgeQuiz = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={restartGame}
-                className="btn-primary"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200 hover:scale-105"
               >
                 Jugar de Nuevo
               </button>
               <button 
                 onClick={() => window.location.href = '/'}
-                className="btn-secondary"
+                className="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-6 rounded-lg border border-white/20 hover:border-white/30 transition-all duration-200"
               >
                 Volver al Inicio
               </button>

@@ -1,78 +1,30 @@
-import { Link } from 'react-router-dom';
+import { Trophy, Shield } from "lucide-react"
+import { Link } from "react-router-dom"
 
-const Header = () => {
-//   const location = useLocation();
-
-// //   const isActive = (path: string) => {
-// //     return location.pathname === path;
-// //   };
-
+export function Header() {
   return (
-    <header className="bg-gray-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">⚽</span>
+    <header className="bg-black border-t border-white/10 py-8 text-white">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex items-center justify-center gap-4">
+          <Shield className="h-10 w-10 text-primary-foreground" />
+          <div className="text-center">
+            <h1 className="text-4xl font-heading font-black text-primary-foreground tracking-tight">
+              <Link to="/">FOOTBALL TRIVIA PRO</Link>
+            </h1>
+            <div className="flex items-center justify-center gap-2 mt-1">
+              <div className="h-1 w-8 bg-secondary rounded-full"></div>
+              <span className="text-primary-foreground/90 font-medium text-sm tracking-wider">
+                PREMIER • LA LIGA • CHAMPIONS
+              </span>
+              <div className="h-1 w-8 bg-secondary rounded-full"></div>
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                nico puto 
-            </span>
-          </Link>
-
-          {/* <nav className="hidden md:flex space-x-1">
-            <Link
-              to="/"
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                isActive('/')
-                  ? 'bg-blue-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-800'
-              }`}
-            >
-              Inicio
-            </Link>
-            <Link
-              to="/nationality-quiz"
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                isActive('/nationality-quiz')
-                  ? 'bg-blue-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-800'
-              }`}
-            >
-              Nacionalidad
-            </Link>
-            <Link
-              to="/team-quiz"
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                isActive('/team-quiz')
-                  ? 'bg-blue-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-800'
-              }`}
-            >
-              Mismo Equipo
-            </Link>
-            <Link
-              to="/age-quiz"
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                isActive('/age-quiz')
-                  ? 'bg-blue-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-800'
-              }`}
-            >
-              Adivina Edad
-            </Link>
-          </nav>
-          <div className="md:hidden">
-            <button className="text-gray-300 hover:text-white p-2">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div> */}
+          </div>
+          <Trophy className="h-10 w-10 text-secondary" />
         </div>
+        <p className="text-center text-primary-foreground/80 mt-4 text-lg font-medium">
+          Test your football knowledge like a pro
+        </p>
       </div>
     </header>
-  );
-};
-
-export default Header;
+  )
+}
