@@ -1,12 +1,14 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -14,20 +16,17 @@ import (
 )
 
 func main() {
-	// Cargar variables de entorno
 	err := godotenv.Load("../../.env")
 	if err != nil {
 		log.Println("Warning: No .env file found, using default values")
 	}
 
-	// Configurar Gin mode
 	if mode := os.Getenv("GIN_MODE"); mode != "" {
 		gin.SetMode(mode)
 	}
 
 	r := gin.Default()
 
-	// CORS middleware con variable de entorno
 	corsOrigin := os.Getenv("CORS_ORIGIN")
 	if corsOrigin == "" {
 		corsOrigin = "*"
@@ -41,7 +40,6 @@ func main() {
 		c.Next()
 	})
 
-	// helper to find the correct data directory among common locations (local dev vs container)
 	findDataDir := func(subdir string) string {
 		candidates := []string{
 			filepath.Join("cmd", subdir),
@@ -54,13 +52,10 @@ func main() {
 				return p
 			}
 		}
-		// fallback to the first candidate
 		fallback := filepath.Join("cmd", subdir)
 		fmt.Printf("Warning: data dir not found, using fallback: %s\n", fallback)
 		return fallback
 	}
-
-	// map allowed league names to directories where JSON files are stored
 	leagues := map[string]string{
 		"laligaes":   findDataDir("scrape_laliga"),
 		"premier":    findDataDir("scrape_premier"),
@@ -69,10 +64,8 @@ func main() {
 		"bundesliga": findDataDir("scrape_bundesliga"),
 	}
 
-	// validate team file segment (allow letters, numbers, dash, underscore, dot and .json suffix)
 	validTeam := regexp.MustCompile(`^[A-Za-z0-9._\-]+\.json$`)
 
-	// Endpoint raíz de la API
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"message":     "🏆 API de Fulbo Quiz ⚽",
@@ -101,9 +94,57 @@ func main() {
 		})
 	})
 
+	r.GET("/api/list/:league", func(c *gin.Context) {
+		league := c.Param("league")
+		dir, ok := leagues[league]
+		if !ok {
+			c.JSON(http.StatusNotFound, gin.H{"error": "league not found"})
+			return
+		}
+
+		entries, err := os.ReadDir(dir)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to read data directory", "detail": err.Error()})
+			return
+		}
+
+		type TeamInfo struct {
+			File string `json:"file"`
+			Team string `json:"team"`
+		}
+
+		var teams []TeamInfo
+		for _, e := range entries {
+			if e.IsDir() {
+				continue
+			}
+			name := e.Name()
+			if !strings.HasSuffix(strings.ToLower(name), ".json") {
+				continue
+			}
+
+			teamName := strings.TrimSuffix(name, ".json")
+			path := filepath.Join(dir, name)
+			if b, err := os.ReadFile(path); err == nil {
+				var tmp map[string]interface{}
+				if err := json.Unmarshal(b, &tmp); err == nil {
+					if t, ok := tmp["team"].(string); ok && strings.TrimSpace(t) != "" {
+						teamName = t
+					}
+				}
+			}
+
+			teams = append(teams, TeamInfo{File: name, Team: teamName})
+		}
+
+		sort.Slice(teams, func(i, j int) bool { return teams[i].Team < teams[j].Team })
+
+		c.JSON(http.StatusOK, gin.H{"league": league, "teams": teams})
+	})
+
 	r.GET("/api/get/:league/:team", func(c *gin.Context) {
 		league := c.Param("league")
-		team := c.Param("team") // includes the .json suffix
+		team := c.Param("team")
 
 		dir, ok := leagues[league]
 		if !ok {
@@ -115,21 +156,17 @@ func main() {
 			return
 		}
 
-		// build safe path and ensure it is inside the intended directory
 		filePath := filepath.Join(dir, team)
 
-		// debug logging
 		fmt.Printf("League: %s, Team: %s\n", league, team)
 		fmt.Printf("Dir: %s, FilePath: %s\n", dir, filePath)
 
-		// check if file exists
 		if _, err := os.Stat(filePath); os.IsNotExist(err) {
 			fmt.Printf("File not found: %s\n", filePath)
 			c.JSON(http.StatusNotFound, gin.H{"error": "team json not found", "path": filePath})
 			return
 		}
 
-		// prevent path traversal by checking the file doesn't contain ..
 		if strings.Contains(team, "..") {
 			c.JSON(http.StatusBadRequest, gin.H{"error": "invalid team name"})
 			return
@@ -138,7 +175,6 @@ func main() {
 		c.File(filePath)
 	})
 
-	// Puerto desde variable de entorno
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
