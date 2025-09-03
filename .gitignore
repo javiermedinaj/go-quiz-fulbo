@@ -93,7 +93,6 @@ dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -178,8 +177,8 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 
-# Data files (if any)
-data/
+# Data files (if any) - Temporalmente deshabilitado para testing
+# data/
 *.json.backup
 
 # Archivos específicos del proyecto

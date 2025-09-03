@@ -1,0 +1,2994 @@
+{
+"gameData": {
+"lastUpdated": "20th August 2025",
+"game": "it1",
+"countryCount": 26,
+"forcedTeamMinimumReputation": 70,
+"categoryOverrides": {
+"include": [
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 2,
+"name": "Spain"
+},
+{
+"id": 3,
+"name": "France"
+},
+{
+"id": 5,
+"name": "Portugal"
+},
+{
+"id": 6,
+"name": "Brazil"
+},
+{
+"id": 8,
+"name": "Netherlands"
+},
+{
+"id": 10,
+"name": "Germany"
+},
+{
+"id": 11,
+"name": "Argentina"
+},
+{
+"id": 14,
+"name": "Serbia"
+},
+{
+"id": 15,
+"name": "Croatia"
+},
+{
+"id": 16,
+"name": "Uruguay"
+},
+{
+"id": 17,
+"name": "Denmark"
+},
+{
+"id": 18,
+"name": "Senegal"
+},
+{
+"id": 20,
+"name": "Colombia"
+},
+{
+"id": 24,
+"name": "Romania"
+},
+{
+"id": 25,
+"name": "Nigeria"
+},
+{
+"id": 26,
+"name": "Morocco"
+},
+{
+"id": 27,
+"name": "Sweden"
+},
+{
+"id": 28,
+"name": "Switzerland"
+},
+{
+"id": 29,
+"name": "Ghana"
+},
+{
+"id": 30,
+"name": "Poland"
+},
+{
+"id": 32,
+"name": "Albania"
+},
+{
+"id": 36,
+"name": "Czech Republic"
+},
+{
+"id": 38,
+"name": "Bosnia-Herzegovina"
+},
+{
+"id": 39,
+"name": "Greece"
+},
+{
+"id": 41,
+"name": "Cote d'Ivoire"
+},
+{
+"id": 57,
+"name": "Slovakia"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+},
+{
+"id": 356,
+"name": "Copa América"
+},
+{
+"id": 355,
+"name": "Euros"
+},
+{
+"id": 354,
+"name": "World Cup"
+},
+{
+"id": 294,
+"name": "Premier League"
+},
+{
+"id": 298,
+"name": "Ligue 1"
+},
+{
+"id": 295,
+"name": "LaLiga"
+},
+{
+"id": 400,
+"name": "Africa"
+},
+{
+"id": 402,
+"name": "CONCACAF"
+},
+{
+"id": 403,
+"name": "South American"
+},
+{
+"id": 546,
+"name": "Asia or Oceania"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+},
+{
+"id": 553,
+"name": "x2 champions league winner"
+},
+{
+"id": 554,
+"name": "x3 champions league winner"
+},
+{
+"id": 562,
+"name": "World Cup Finals Appearance"
+},
+{
+"id": 564,
+"name": "Champions League Finals Appearance"
+},
+{
+"id": 565,
+"name": "Champions League Finals Goal"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+},
+{
+"id": 569,
+"name": "Born in the 2000s"
+}
+],
+"exclude": [
+{
+"id": 242,
+"name": "Cremonese"
+},
+{
+"id": 255,
+"name": "Spezia"
+},
+{
+"id": 270,
+"name": "Frosinone"
+}
+]
+},
+"excludedCombosAutomated": [
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 251,
+"name": "Monza"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 262,
+"name": "SSC Napoli"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 214,
+"name": "Sampdoria"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 251,
+"name": "Monza"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 153,
+"name": "Lazio"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 262,
+"name": "SSC Napoli"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 214,
+"name": "Sampdoria"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 251,
+"name": "Monza"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 194,
+"name": "Atalanta"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 262,
+"name": "SSC Napoli"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 214,
+"name": "Sampdoria"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 194,
+"name": "Atalanta"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 262,
+"name": "SSC Napoli"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 232,
+"name": "Cagliari"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 153,
+"name": "Lazio"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 153,
+"name": "Lazio"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 232,
+"name": "Cagliari"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 194,
+"name": "Atalanta"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 214,
+"name": "Sampdoria"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 294,
+"name": "Premier League"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 403,
+"name": "South America"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 232,
+"name": "Cagliari"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 567,
+"name": "Born in the 80s"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 295,
+"name": "LaLiga"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 403,
+"name": "South America"
+}
+],
+[
+{
+"id": 295,
+"name": "LaLiga"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 294,
+"name": "Premier League"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 153,
+"name": "Lazio"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 153,
+"name": "Lazio"
+},
+{
+"id": 566,
+"name": "Born in the 70s"
+}
+],
+[
+{
+"id": 262,
+"name": "SSC Napoli"
+},
+{
+"id": 568,
+"name": "Born in the 90s"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 403,
+"name": "South America"
+}
+],
+[
+{
+"id": 194,
+"name": "Atalanta"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 403,
+"name": "South America"
+}
+],
+[
+{
+"id": 214,
+"name": "Sampdoria"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 403,
+"name": "South America"
+}
+],
+[
+{
+"id": 338,
+"name": "Coppa Italia"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 158,
+"name": "Torino"
+}
+],
+[
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 251,
+"name": "Monza"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 295,
+"name": "LaLiga"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 295,
+"name": "LaLiga"
+}
+],
+[
+{
+"id": 99,
+"name": "Inter Milan"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 338,
+"name": "Coppa Italia"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 337,
+"name": "Serie A Champion"
+}
+],
+[
+{
+"id": 167,
+"name": "Juventus"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 251,
+"name": "Monza"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 294,
+"name": "Premier League"
+}
+],
+[
+{
+"id": 83,
+"name": "AC Milan"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 32,
+"name": "Albania"
+},
+{
+"id": 83,
+"name": "AC Milan"
+}
+],
+[
+{
+"id": 85,
+"name": "Roma"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 111,
+"name": "Parma"
+}
+],
+[
+{
+"id": 10,
+"name": "Germany"
+},
+{
+"id": 111,
+"name": "Parma"
+}
+],
+[
+{
+"id": 111,
+"name": "Parma"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 130,
+"name": "Genoa"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 25,
+"name": "Nigeria"
+},
+{
+"id": 132,
+"name": "Hellas Verona"
+}
+],
+[
+{
+"id": 132,
+"name": "Hellas Verona"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 150,
+"name": "Salernitana"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 356,
+"name": "Copa América"
+}
+],
+[
+{
+"id": 150,
+"name": "Salernitana"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 29,
+"name": "Ghana"
+},
+{
+"id": 153,
+"name": "Lazio"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 156,
+"name": "Udinese"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 158,
+"name": "Torino"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 161,
+"name": "Fiorentina"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 57,
+"name": "Slovakia"
+},
+{
+"id": 167,
+"name": "Juventus"
+}
+],
+[
+{
+"id": 36,
+"name": "Czech Republic"
+},
+{
+"id": 190,
+"name": "Empoli"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 190,
+"name": "Empoli"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 26,
+"name": "Morocco"
+},
+{
+"id": 194,
+"name": "Atalanta"
+}
+],
+[
+{
+"id": 194,
+"name": "Atalanta"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 553,
+"name": "2+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 208,
+"name": "Lecce"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 5,
+"name": "Portugal"
+},
+{
+"id": 210,
+"name": "Bologna"
+}
+],
+[
+{
+"id": 38,
+"name": "Bosnia-Herzegovina"
+},
+{
+"id": 210,
+"name": "Bologna"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 210,
+"name": "Bologna"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 10,
+"name": "Germany"
+},
+{
+"id": 232,
+"name": "Cagliari"
+}
+],
+[
+{
+"id": 25,
+"name": "Nigeria"
+},
+{
+"id": 232,
+"name": "Cagliari"
+}
+],
+[
+{
+"id": 232,
+"name": "Cagliari"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 232,
+"name": "Cagliari"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 10,
+"name": "Germany"
+},
+{
+"id": 251,
+"name": "Monza"
+}
+],
+[
+{
+"id": 20,
+"name": "Colombia"
+},
+{
+"id": 251,
+"name": "Monza"
+}
+],
+[
+{
+"id": 36,
+"name": "Czech Republic"
+},
+{
+"id": 251,
+"name": "Monza"
+}
+],
+[
+{
+"id": 57,
+"name": "Slovakia"
+},
+{
+"id": 251,
+"name": "Monza"
+}
+],
+[
+{
+"id": 251,
+"name": "Monza"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 38,
+"name": "Bosnia-Herzegovina"
+},
+{
+"id": 262,
+"name": "SSC Napoli"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 263,
+"name": "Sassuolo"
+}
+],
+[
+{
+"id": 25,
+"name": "Nigeria"
+},
+{
+"id": 263,
+"name": "Sassuolo"
+}
+],
+[
+{
+"id": 27,
+"name": "Sweden"
+},
+{
+"id": 263,
+"name": "Sassuolo"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 357,
+"name": "Ballon d'Or"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 356,
+"name": "Copa América"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 354,
+"name": "World Cup"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 553,
+"name": "2+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles"
+}
+],
+[
+{
+"id": 263,
+"name": "Sassuolo"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal"
+}
+],
+[
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 2,
+"name": "Spain"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 14,
+"name": "Serbia"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 15,
+"name": "Croatia"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 18,
+"name": "Senegal"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 20,
+"name": "Colombia"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 24,
+"name": "Romania"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 26,
+"name": "Morocco"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 28,
+"name": "Switzerland"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 29,
+"name": "Ghana"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 30,
+"name": "Poland"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 32,
+"name": "Albania"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 36,
+"name": "Czech Republic"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 39,
+"name": "Greece"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 41,
+"name": "Cote d'Ivoire"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 57,
+"name": "Slovakia"
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+}
+],
+[
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+},
+{
+"id": 402,
+"name": "CONCACAF"
+}
+],
+[
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+},
+{
+"id": 546,
+"name": "Asia or Oceania"
+}
+],
+[
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+},
+{
+"id": 547,
+"name": "Goalkeeper"
+}
+],
+[
+{
+"id": 339,
+"name": "Italian League Top Scorer"
+},
+{
+"id": 569,
+"name": "Born in the 2000s"
+}
+],
+[
+{
+"id": 1,
+"name": "England"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 17,
+"name": "Denmark"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 18,
+"name": "Senegal"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 25,
+"name": "Nigeria"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 32,
+"name": "Albania"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 39,
+"name": "Greece"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 41,
+"name": "Cote d'Ivoire"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 57,
+"name": "Slovakia"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+],
+[
+{
+"id": 402,
+"name": "CONCACAF"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles"
+}
+]
+],
+"excludedCombosManual": [
+[
+{
+"id": 337,
+"name": "Serie A Champion"
+},
+{
+"id": 560,
+"name": "x3 Serie A Winner"
+}
+]
+],
+"categories": [
+{
+"id": 1,
+"name": "England",
+"reputation": 80,
+"type": 1,
+"description": "England",
+"displayName": "ENG"
+},
+{
+"id": 2,
+"name": "Spain",
+"reputation": 85,
+"type": 1,
+"description": "Spain",
+"displayName": "ESP"
+},
+{
+"id": 3,
+"name": "France",
+"reputation": 85,
+"type": 1,
+"description": "France",
+"displayName": "FRA"
+},
+{
+"id": 5,
+"name": "Portugal",
+"reputation": 70,
+"type": 1,
+"description": "Portugal",
+"displayName": "POR"
+},
+{
+"id": 6,
+"name": "Brazil",
+"reputation": 100,
+"type": 1,
+"description": "Brazil",
+"displayName": "BRA"
+},
+{
+"id": 8,
+"name": "Netherlands",
+"reputation": 75,
+"type": 1,
+"description": "Netherlands",
+"displayName": "NLD"
+},
+{
+"id": 10,
+"name": "Germany",
+"reputation": 90,
+"type": 1,
+"description": "Germany",
+"displayName": "GER"
+},
+{
+"id": 11,
+"name": "Argentina",
+"reputation": 90,
+"type": 1,
+"description": "Argentina",
+"displayName": "ARG"
+},
+{
+"id": 14,
+"name": "Serbia",
+"reputation": 30,
+"type": 1,
+"description": "Serbia",
+"displayName": "SRB"
+},
+{
+"id": 15,
+"name": "Croatia",
+"reputation": 60,
+"type": 1,
+"description": "Croatia",
+"displayName": "CRO"
+},
+{
+"id": 16,
+"name": "Uruguay",
+"reputation": 50,
+"type": 1,
+"description": "Uruguay",
+"displayName": "URU"
+},
+{
+"id": 17,
+"name": "Denmark",
+"reputation": 55,
+"type": 1,
+"description": "Denmark",
+"displayName": "DEN"
+},
+{
+"id": 18,
+"name": "Senegal",
+"reputation": 25,
+"type": 1,
+"description": "Senegal",
+"displayName": "SEN"
+},
+{
+"id": 20,
+"name": "Colombia",
+"reputation": 40,
+"type": 1,
+"description": "Colombia",
+"displayName": "COL"
+},
+{
+"id": 24,
+"name": "Romania",
+"reputation": 30,
+"type": 1,
+"description": "Romania",
+"displayName": "ROU"
+},
+{
+"id": 25,
+"name": "Nigeria",
+"reputation": 50,
+"type": 1,
+"description": "Nigeria",
+"displayName": "NGA"
+},
+{
+"id": 26,
+"name": "Morocco",
+"reputation": 30,
+"type": 1,
+"description": "Morocco",
+"displayName": "MAR"
+},
+{
+"id": 27,
+"name": "Sweden",
+"reputation": 45,
+"type": 1,
+"description": "Sweden",
+"displayName": "SWE"
+},
+{
+"id": 28,
+"name": "Switzerland",
+"reputation": 25,
+"type": 1,
+"description": "Switzerland",
+"displayName": "SUI"
+},
+{
+"id": 29,
+"name": "Ghana",
+"reputation": 25,
+"type": 1,
+"description": "Ghana",
+"displayName": "GHA"
+},
+{
+"id": 30,
+"name": "Poland",
+"reputation": 35,
+"type": 1,
+"description": "Poland",
+"displayName": "POL"
+},
+{
+"id": 32,
+"name": "Albania",
+"reputation": 0,
+"type": 1,
+"description": "Albania",
+"displayName": "ALB"
+},
+{
+"id": 36,
+"name": "Czech Republic",
+"reputation": 25,
+"type": 1,
+"description": "Czech Republic",
+"displayName": "CZE"
+},
+{
+"id": 38,
+"name": "Bosnia-Herzegovina",
+"reputation": 0,
+"type": 1,
+"description": "Bosnia-Herzegovina",
+"displayName": "BIH"
+},
+{
+"id": 39,
+"name": "Greece",
+"reputation": 25,
+"type": 1,
+"description": "Greece",
+"displayName": "GRC"
+},
+{
+"id": 41,
+"name": "Cote d'Ivoire",
+"reputation": 25,
+"type": 1,
+"description": "Ivory Coast",
+"displayName": "CIV"
+},
+{
+"id": 57,
+"name": "Slovakia",
+"reputation": 15,
+"type": 1,
+"description": "Slovakia",
+"displayName": "SVK"
+},
+{
+"id": 400,
+"name": "Africa",
+"reputation": 10,
+"type": 1,
+"description": "Africa",
+"displayName": "Africa",
+"helperText": "players from countries in the Confederation of African Football, which includes Egypt, Nigeria, Senegal, and others — not just based on geographic location."
+},
+{
+"id": 402,
+"name": "CONCACAF",
+"reputation": 10,
+"type": 1,
+"description": "North / Central America / Carribean",
+"displayName": "N/C America or Carribean",
+"helperText": "players from countries in CONCACAF, which includes USA, Mexico, Costa Rica, Jamaica and others — not just based on geographic location."
+},
+{
+"id": 403,
+"name": "South America",
+"reputation": 50,
+"type": 1,
+"description": "South America",
+"displayName": "South America",
+"helperText": "players from countries in CONMEBOL, which includes Brazil, Argentina, Chile, and others — not just based on geographic location."
+},
+{
+"id": 546,
+"name": "Asia or Oceania",
+"reputation": 1,
+"type": 1,
+"description": "Asia or Oceania",
+"displayName": "Asia or Oceania",
+"helperText": "players from countries in the Asian or Oceania Football Confederations, which includes Japan, South Korea, Australia, New Zealand, and others."
+},
+{
+"id": 83,
+"name": "AC Milan",
+"reputation": 90,
+"type": 2,
+"description": "AC Milan",
+"displayName": "MIL",
+"full": true
+},
+{
+"id": 85,
+"name": "Roma",
+"reputation": 80,
+"type": 2,
+"description": "Roma",
+"displayName": "ROM",
+"full": true
+},
+{
+"id": 99,
+"name": "Inter Milan",
+"reputation": 90,
+"type": 2,
+"description": "Inter Milan",
+"displayName": "INT",
+"full": true
+},
+{
+"id": 111,
+"name": "Parma",
+"reputation": 50,
+"type": 2,
+"description": "Parma",
+"displayName": "PAR",
+"full": true
+},
+{
+"id": 130,
+"name": "Genoa",
+"reputation": 20,
+"type": 2,
+"description": "Genoa",
+"displayName": "GEN",
+"full": true
+},
+{
+"id": 132,
+"name": "Hellas Verona",
+"reputation": 20,
+"type": 2,
+"description": "Hellas Verona",
+"displayName": "VER",
+"full": true
+},
+{
+"id": 150,
+"name": "Salernitana",
+"reputation": 10,
+"type": 2,
+"description": "Salernitana",
+"displayName": "SAL",
+"full": true
+},
+{
+"id": 153,
+"name": "Lazio",
+"reputation": 70,
+"type": 2,
+"description": "Lazio",
+"displayName": "LAZ",
+"full": true
+},
+{
+"id": 156,
+"name": "Udinese",
+"reputation": 30,
+"type": 2,
+"description": "Udinese",
+"displayName": "UDI",
+"full": true
+},
+{
+"id": 158,
+"name": "Torino",
+"reputation": 30,
+"type": 2,
+"description": "Torino",
+"displayName": "TOR",
+"full": true
+},
+{
+"id": 161,
+"name": "Fiorentina",
+"reputation": 60,
+"type": 2,
+"description": "Fiorentina",
+"displayName": "FIO",
+"full": true
+},
+{
+"id": 167,
+"name": "Juventus",
+"reputation": 100,
+"type": 2,
+"description": "Juventus",
+"displayName": "JUV",
+"full": true
+},
+{
+"id": 190,
+"name": "Empoli",
+"reputation": 10,
+"type": 2,
+"description": "Empoli",
+"displayName": "EMP",
+"full": true
+},
+{
+"id": 194,
+"name": "Atalanta",
+"reputation": 60,
+"type": 2,
+"description": "Atalanta",
+"displayName": "ATA",
+"full": true
+},
+{
+"id": 208,
+"name": "Lecce",
+"reputation": 10,
+"type": 2,
+"description": "Lecce",
+"displayName": "LEC",
+"full": true
+},
+{
+"id": 210,
+"name": "Bologna",
+"reputation": 30,
+"type": 2,
+"description": "Bologna",
+"displayName": "BOL",
+"full": true
+},
+{
+"id": 214,
+"name": "Sampdoria",
+"reputation": 20,
+"type": 2,
+"description": "Sampdoria",
+"displayName": "SAM",
+"full": true
+},
+{
+"id": 232,
+"name": "Cagliari",
+"reputation": 20,
+"type": 2,
+"description": "Cagliari",
+"displayName": "CAG",
+"full": true
+},
+{
+"id": 251,
+"name": "Monza",
+"reputation": 20,
+"type": 2,
+"description": "Monza",
+"displayName": "MON",
+"full": true
+},
+{
+"id": 262,
+"name": "SSC Napoli",
+"reputation": 80,
+"type": 2,
+"description": "SSC Napoli",
+"displayName": "NAP",
+"full": true
+},
+{
+"id": 263,
+"name": "Sassuolo",
+"reputation": 30,
+"type": 2,
+"description": "Sassuolo",
+"displayName": "SAS",
+"full": true
+},
+{
+"id": 294,
+"name": "Premier League",
+"reputation": 100,
+"type": 3,
+"description": "Premier League",
+"displayName": "Premier League",
+"prefix": "Played in"
+},
+{
+"id": 295,
+"name": "LaLiga",
+"reputation": 90,
+"type": 3,
+"description": "LaLiga",
+"displayName": "LaLiga",
+"prefix": "Played in",
+"helperText": "data is available from 1939/40 onwards"
+},
+{
+"id": 298,
+"name": "Ligue 1",
+"reputation": 60,
+"type": 3,
+"description": "Ligue 1",
+"displayName": "Ligue 1",
+"prefix": "Played in",
+"helperText": "data is available from 1945/46 onwards"
+},
+{
+"id": 337,
+"name": "Serie A Champion",
+"reputation": 80,
+"type": 6,
+"description": "Italian Serie A",
+"displayName": "Serie A",
+"suffix": "winner",
+"helperText": "data is available from 1960/61 onwards",
+"full": true
+},
+{
+"id": 338,
+"name": "Coppa Italia",
+"reputation": 50,
+"type": 6,
+"description": "Coppa Italia",
+"displayName": "Coppa Italia",
+"suffix": "winner",
+"helperText": "data is available from 1960/61 onwards",
+"full": true
+},
+{
+"id": 339,
+"name": "Italian League Top Scorer",
+"reputation": 100,
+"type": 6,
+"description": "Italian Serie A top goal scorer",
+"displayName": "Serie A Golden Boot",
+"helperText": "data is available from 1959/60 onwards",
+"full": true
+},
+{
+"id": 354,
+"name": "World Cup",
+"reputation": 60,
+"type": 6,
+"description": "World Cup",
+"displayName": "World Cup",
+"suffix": "winner",
+"helperText": "data is available from 1958 onwards"
+},
+{
+"id": 355,
+"name": "Euros",
+"reputation": 40,
+"type": 6,
+"description": "European Championship",
+"displayName": "Euros",
+"suffix": "winner"
+},
+{
+"id": 356,
+"name": "Copa América",
+"reputation": 20,
+"type": 6,
+"description": "Copa América",
+"displayName": "Copa América",
+"suffix": "winner",
+"helperText": "data is available from 1960 onwards"
+},
+{
+"id": 357,
+"name": "Ballon d'Or",
+"reputation": 100,
+"type": 6,
+"description": "Ballon d'Or",
+"displayName": "Ballon d'Or"
+},
+{
+"id": 547,
+"name": "Goalkeeper",
+"reputation": 1,
+"type": 8,
+"description": "Goalkeeper",
+"displayName": "Goalkeeper"
+},
+{
+"id": 553,
+"name": "2+ champions league/european cup titles",
+"reputation": 1,
+"type": 8,
+"description": "2 or more Champions League or European Cup Titles",
+"displayName": "2+ UCL Titles",
+"helperText": "covers Champions League and European Cup"
+},
+{
+"id": 554,
+"name": "3+ champions league/european cup titles",
+"reputation": 1,
+"type": 8,
+"description": "3 or more Champions League or European Cup Titles",
+"displayName": "3+ UCL Titles",
+"helperText": "covers Champions League and European Cup"
+},
+{
+"id": 560,
+"name": "3+ Serie A Titles",
+"reputation": 1,
+"type": 8,
+"description": "3 or more Serie A Titles",
+"displayName": "3+ Serie A Titles",
+"helperText": "data is available from 1960/61 onwards",
+"full": true
+},
+{
+"id": 562,
+"name": "World Cup Final Appearance",
+"reputation": 1,
+"type": 8,
+"description": "World Cup Final",
+"displayName": "World Cup Final",
+"prefix": "Played in"
+},
+{
+"id": 564,
+"name": "Champions League/European Cup Finals Appearance",
+"reputation": 1,
+"type": 8,
+"description": "Champions League or European Cup Final",
+"displayName": "UCL Final",
+"prefix": "Played in",
+"helperText": "covers Champions League and European Cup finals"
+},
+{
+"id": 565,
+"name": "Champions League/European Cup Finals Goal",
+"reputation": 1,
+"type": 8,
+"description": "Champions League or European Cup Final",
+"displayName": "UCL Final",
+"prefix": "Scored in",
+"helperText": "covers Champions League and European Cup finals"
+},
+{
+"id": 566,
+"name": "Born in the 70s",
+"reputation": 1,
+"type": 8,
+"description": "Players born in the 70s",
+"displayName": "Born in the 70s",
+"suffix": "({{age:1979-12-31}}-{{age:1970-01-01}})"
+},
+{
+"id": 567,
+"name": "Born in the 80s",
+"reputation": 1,
+"type": 8,
+"description": "Players born in the 80s",
+"displayName": "Born in the 80s",
+"suffix": "({{age:1989-12-31}}-{{age:1980-01-01}})"
+},
+{
+"id": 568,
+"name": "Born in the 90s",
+"reputation": 1,
+"type": 8,
+"description": "Players born in the 90s",
+"displayName": "Born in the 90s",
+"suffix": "({{age:1999-12-31}}-{{age:1990-01-01}})"
+},
+{
+"id": 569,
+"name": "Born in the 2000s",
+"reputation": 1,
+"type": 8,
+"description": "Players born in the 2000s",
+"displayName": "Born in the 2000s",
+"suffix": "({{age:2009-12-31}}-{{age:2000-01-01}})"
+}
+]
+}
+}
