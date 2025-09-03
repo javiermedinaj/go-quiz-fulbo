@@ -1,0 +1,429 @@
+==> Cloning from https://github.com/javiermedinaj/go-quiz-fulbo
+==> Checking out commit a3f3fb15c875818a30fe4318a6d61a3b4999518b in branch main
+==> Downloading cache...
+==> Transferred 646MB in 9s. Extraction took 0s.
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.56kB done
+#1 DONE 0.0s
+#2 [internal] load metadata for docker.io/library/golang:1.24-alpine
+#2 ...
+#3 [auth] library/alpine:pull render-prod/docker-mirror-repository/library/alpine:pull token for us-west1-docker.pkg.dev
+#3 DONE 0.0s
+#4 [auth] library/golang:pull render-prod/docker-mirror-repository/library/golang:pull token for us-west1-docker.pkg.dev
+#4 DONE 0.0s
+#5 [internal] load metadata for docker.io/library/alpine:latest
+#5 ...
+#2 [internal] load metadata for docker.io/library/golang:1.24-alpine
+#2 DONE 1.8s
+#5 [internal] load metadata for docker.io/library/alpine:latest
+#5 DONE 2.1s
+#6 [internal] load .dockerignore
+#6 transferring context: 490B done
+#6 DONE 0.0s
+#7 importing cache manifest from local:13721290994131143331
+#7 inferred cache manifest type: application/vnd.oci.image.index.v1+json done
+#7 DONE 0.0s
+#8 [builder  1/11] FROM docker.io/library/golang:1.24-alpine@sha256:c92b15e425d2984b843031243a4f02926c9671f54b9dd98b2f924e45f00a791a
+#8 resolve docker.io/library/golang:1.24-alpine@sha256:c92b15e425d2984b843031243a4f02926c9671f54b9dd98b2f924e45f00a791a 0.0s done
+#8 DONE 0.0s
+#9 [stage-1  1/11] FROM docker.io/library/alpine:latest@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9bea4045fa6c8c44de311d1
+#9 resolve docker.io/library/alpine:latest@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9bea4045fa6c8c44de311d1 0.0s done
+#9 DONE 0.0s
+#10 [internal] load build context
+#10 transferring context: 2.00MB 0.1s done
+#10 DONE 0.1s
+#11 [builder  2/11] RUN apk add --no-cache git
+#11 CACHED
+#12 [builder  3/11] WORKDIR /app
+#12 CACHED
+#13 [builder  4/11] COPY go.mod ./
+#13 CACHED
+#14 [builder  5/11] COPY go.su[m] ./
+#14 CACHED
+#15 [builder  6/11] RUN go mod download
+#15 sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 3.80MB / 3.80MB 0.0s done
+#15 extracting sha256:9824c27679d3b27c5e1cb00a73adb6f4f8d556994111c12db3c5d61a0c843df8 0.1s done
+#15 sha256:40e451c10b31532d8616ff155adb8383bcfe95b7388ad69363af6512986430f9 282.44kB / 282.44kB done
+#15 extracting sha256:40e451c10b31532d8616ff155adb8383bcfe95b7388ad69363af6512986430f9
+#15 extracting sha256:40e451c10b31532d8616ff155adb8383bcfe95b7388ad69363af6512986430f9 0.2s done
+#15 sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 18.87MB / 79.00MB 0.2s
+#15 sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 37.92MB / 79.00MB 0.3s
+#15 sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 55.57MB / 79.00MB 0.5s
+#15 sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 76.55MB / 79.00MB 0.6s
+#15 sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 79.00MB / 79.00MB 0.7s done
+#15 extracting sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d
+#15 extracting sha256:72e8fc27da55cce2fb2e46c294e2373522d6729d092352a2d7221eb8f9a77a2d 4.2s done
+#15 sha256:994678d1c2a93bf605782bddb80bc3a0c17db79ca705f3c2205cc880671e0dc7 126B / 126B done
+#15 extracting sha256:994678d1c2a93bf605782bddb80bc3a0c17db79ca705f3c2205cc880671e0dc7 0.0s done
+#15 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B done
+#15 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+#15 sha256:0a5f1e6cb7761a6fd18091842ffe3b1a185be707209b6b5d57e3a1e3b1a08ab5 6.16MB / 6.16MB 0.0s done
+#15 extracting sha256:0a5f1e6cb7761a6fd18091842ffe3b1a185be707209b6b5d57e3a1e3b1a08ab5 0.1s done
+#15 sha256:42bbd034a9af52649106c58c8ab3a4f8b9caa0f29563fefe1ee349b10a222692 92B / 92B done
+#15 extracting sha256:42bbd034a9af52649106c58c8ab3a4f8b9caa0f29563fefe1ee349b10a222692 0.0s done
+#15 sha256:cbc3ff4062153edcbe5d92a132ccf4c30b0a4837c2256723f8535dc908c22081 658B / 658B done
+#15 extracting sha256:cbc3ff4062153edcbe5d92a132ccf4c30b0a4837c2256723f8535dc908c22081 0.0s done
+#15 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 23.07MB / 109.10MB 0.2s
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 40.89MB / 109.10MB 0.3s
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 62.91MB / 109.10MB 0.5s
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 80.74MB / 109.10MB 0.6s
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 103.81MB / 109.10MB 0.8s
+#15 sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 109.10MB / 109.10MB 0.9s done
+#15 extracting sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a
+#15 extracting sha256:838e21f6b5cc7fc6321db71d7d25c9760e92b32966b7c7958f0fe64d40823a2a 3.8s done
+#15 CACHED
+#16 [builder  7/11] COPY . ./
+#16 DONE 0.1s
+#17 [builder  8/11] RUN ls -la ./
+#17 0.062 total 84
+#17 0.062 drwxr-sr-x    1 root     root          4096 Sep  3 19:59 .
+#17 0.062 drwxr-sr-x    1 root     root          4096 Sep  3 19:59 ..
+#17 0.062 -rw-r--r--    1 root     root           448 Sep  3 19:58 .dockerignore
+#17 0.062 -rw-r--r--    1 root     root           134 Sep  3 19:58 .env.production
+#17 0.062 -rw-r--r--    1 root     root          1517 Sep  3 19:58 Dockerfile
+#17 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 bundesliga
+#17 0.062 drwxr-sr-x   10 root     root          4096 Sep  3 19:58 cmd
+#17 0.062 drwxr-sr-x    3 root     root          4096 Sep  3 19:58 games
+#17 0.062 -rw-r--r--    1 root     root          1504 Sep  3 19:58 go.mod
+#17 0.062 -rw-r--r--    1 root     root          5641 Sep  3 19:33 go.sum
+#17 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 laligaes
+#17 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 ligue1
+#17 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 premier
+#17 0.062 -rw-r--r--    1 root     root         10807 Sep  3 19:58 river-plate.json
+#17 0.062 -rw-r--r--    1 root     root          5360 Sep  3 19:58 scrape.go
+#17 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 seriea
+#17 0.062 drwxr-sr-x    4 root     root          4096 Sep  3 19:58 tools
+#17 DONE 0.1s
+#18 [builder  9/11] RUN ls -la ./cmd/
+#18 0.062 total 40
+#18 0.062 drwxr-sr-x   10 root     root          4096 Sep  3 19:58 .
+#18 0.062 drwxr-sr-x    1 root     root          4096 Sep  3 19:59 ..
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 api
+#18 0.062 drwxr-sr-x    3 root     root          4096 Sep  3 19:58 scrape_bingo
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 scrape_bundesliga
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 scrape_laliga
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 scrape_ligue1
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 scrape_premier
+#18 0.062 drwxr-sr-x    4 root     root          4096 Sep  3 19:58 scrape_questions
+#18 0.062 drwxr-sr-x    2 root     root          4096 Sep  3 19:58 scrape_seriea
+#18 DONE 0.1s
+#19 [builder 10/11] RUN go mod tidy
+#19 0.229 go: downloading github.com/stretchr/testify v1.9.0
+#19 0.328 go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+#19 0.416 go: downloading github.com/go-playground/assert/v2 v2.2.0
+#19 0.516 go: downloading github.com/davecgh/go-spew v1.1.1
+#19 0.523 go: downloading github.com/google/go-cmp v0.5.5
+#19 0.629 go: downloading github.com/pmezard/go-difflib v1.0.0
+#19 0.669 go: downloading golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
+#19 DONE 0.8s
+#20 [builder 11/11] RUN CGO_ENABLED=0 GOOS=linux go build -v -o main ./cmd/api
+#20 0.140 internal/goarch
+#20 0.140 internal/byteorder
+#20 0.140 internal/goos
+#20 0.140 internal/msan
+#20 0.140 internal/godebugs
+#20 0.141 internal/coverage/rtcov
+#20 0.141 unicode
+#20 0.141 internal/profilerecord
+#20 0.141 internal/unsafeheader
+#20 0.141 internal/asan
+#20 0.143 internal/runtime/atomic
+#20 0.143 sync/atomic
+#20 0.143 internal/goexperiment
+#20 0.143 internal/runtime/syscall
+#20 0.144 internal/cpu
+#20 0.164 math/bits
+#20 0.422 unicode/utf8
+#20 0.425 internal/abi
+#20 0.433 internal/runtime/math
+#20 0.438 cmp
+#20 0.439 internal/runtime/sys
+#20 0.439 encoding
+#20 0.448 internal/itoa
+#20 0.451 unicode/utf16
+#20 0.462 internal/chacha8rand
+#20 0.470 crypto/internal/fips140/alias
+#20 0.483 container/list
+#20 0.521 internal/bytealg
+#20 0.526 internal/runtime/exithook
+#20 0.535 math
+#20 0.549 crypto/internal/fips140deps/byteorder
+#20 0.633 crypto/internal/fips140/subtle
+#20 0.715 crypto/internal/fips140deps/cpu
+#20 0.725 crypto/internal/boring/sig
+#20 0.730 vendor/golang.org/x/crypto/cryptobyte/asn1
+#20 0.817 internal/nettrace
+#20 0.826 internal/stringslite
+#20 0.829 log/internal
+#20 0.836 golang.org/x/net/html/atom
+#20 0.842 vendor/golang.org/x/crypto/internal/alias
+#20 0.916 github.com/gin-gonic/gin/internal/bytesconv
+#20 0.918 github.com/go-playground/locales/currency
+#20 0.932 github.com/leodido/go-urn/scim/schema
+#20 1.019 github.com/pelletier/go-toml/v2/internal/characters
+#20 1.028 google.golang.org/protobuf/internal/flags
+#20 1.055 internal/race
+#20 1.088 internal/sync
+#20 1.089 internal/runtime/maps
+#20 1.199 runtime
+#20 3.668 iter
+#20 3.668 crypto/subtle
+#20 3.668 internal/reflectlite
+#20 3.668 weak
+#20 3.668 sync
+#20 3.698 maps
+#20 3.698 slices
+#20 3.827 errors
+#20 3.827 sort
+#20 3.843 internal/bisect
+#20 3.843 internal/singleflight
+#20 3.843 internal/testlog
+#20 3.843 google.golang.org/protobuf/internal/pragma
+#20 3.843 unique
+#20 3.856 internal/oserror
+#20 3.856 io
+#20 3.856 path
+#20 3.856 vendor/golang.org/x/net/dns/dnsmessage
+#20 3.856 math/rand/v2
+#20 3.857 strconv
+#20 3.927 syscall
+#20 4.315 internal/godebug
+#20 4.320 hash
+#20 4.320 internal/saferio
+#20 4.320 bytes
+#20 4.320 strings
+#20 4.415 golang.org/x/text/internal/tag
+#20 4.428 hash/fnv
+#20 4.428 hash/adler32
+#20 4.428 hash/crc32
+#20 4.428 crypto/internal/randutil
+#20 4.927 crypto
+#20 4.927 net/netip
+#20 4.928 reflect
+#20 5.015 vendor/golang.org/x/text/transform
+#20 5.015 golang.org/x/text/transform
+#20 5.016 crypto/internal/fips140deps/godebug
+#20 5.017 math/rand
+#20 5.415 bufio
+#20 5.415 crypto/internal/fips140
+#20 5.415 crypto/internal/impl
+#20 5.415 net/http/internal/ascii
+#20 5.415 html
+#20 5.416 regexp/syntax
+#20 5.525 crypto/tls/internal/fips140tls
+#20 5.525 crypto/internal/fips140/sha256
+#20 5.525 crypto/internal/fips140/sha512
+#20 5.525 crypto/internal/fips140/sha3
+#20 6.215 internal/syscall/execenv
+#20 6.215 internal/syscall/unix
+#20 6.216 time
+#20 6.317 regexp
+#20 6.319 crypto/sha3
+#20 6.415 crypto/internal/fips140/hmac
+#20 6.824 crypto/internal/fips140/check
+#20 6.916 crypto/internal/fips140hash
+#20 7.020 crypto/internal/fips140/hkdf
+#20 7.020 crypto/internal/fips140/edwards25519/field
+#20 7.020 crypto/internal/fips140/tls12
+#20 7.020 crypto/internal/fips140/bigmod
+#20 7.020 crypto/internal/fips140/aes
+#20 7.021 crypto/internal/fips140/nistec/fiat
+#20 7.438 context
+#20 7.438 github.com/go-playground/locales
+#20 7.438 io/fs
+#20 7.515 internal/poll
+#20 7.516 crypto/internal/fips140/tls13
+#20 7.715 crypto/internal/fips140/edwards25519
+#20 7.823 internal/filepathlite
+#20 7.824 internal/fmtsort
+#20 7.824 encoding/binary
+#20 8.143 os
+#20 8.430 crypto/internal/fips140/nistec
+#20 8.453 encoding/base64
+#20 8.453 vendor/golang.org/x/crypto/internal/poly1305
+#20 8.454 golang.org/x/crypto/sha3
+#20 8.456 golang.org/x/sys/unix
+#20 8.524 encoding/pem
+#20 9.057 io/ioutil
+#20 9.057 fmt
+#20 9.057 crypto/internal/sysrand
+#20 9.057 path/filepath
+#20 9.057 google.golang.org/protobuf/internal/detrand
+#20 9.057 vendor/golang.org/x/sys/cpu
+#20 9.117 net
+#20 9.316 crypto/internal/entropy
+#20 9.331 crypto/internal/fips140/drbg
+#20 9.435 crypto/internal/fips140only
+#20 9.435 crypto/internal/fips140/ed25519
+#20 9.436 crypto/internal/fips140/mlkem
+#20 9.436 crypto/internal/fips140/aes/gcm
+#20 9.436 crypto/internal/fips140/rsa
+#20 9.515 os/exec
+#20 9.718 crypto/md5
+#20 9.718 crypto/rc4
+#20 10.22 crypto/cipher
+#20 10.61 encoding/json
+#20 10.62 encoding/hex
+#20 10.62 crypto/internal/fips140/ecdh
+#20 10.62 net/url
+#20 10.62 crypto/internal/fips140/ecdsa
+#20 10.62 encoding/xml
+#20 10.62 flag
+#20 10.62 log
+#20 10.62 math/big
+#20 10.62 vendor/golang.org/x/net/http2/hpack
+#20 10.62 mime
+#20 10.62 compress/flate
+#20 10.62 vendor/golang.org/x/text/unicode/norm
+#20 10.82 crypto/internal/boring
+#20 10.92 crypto/des
+#20 10.92 vendor/golang.org/x/crypto/chacha20
+#20 11.22 crypto/aes
+#20 11.32 crypto/ecdh
+#20 11.42 crypto/sha512
+#20 11.42 crypto/hmac
+#20 11.52 crypto/sha1
+#20 11.61 crypto/sha256
+#20 11.63 vendor/golang.org/x/crypto/chacha20poly1305
+#20 11.72 vendor/golang.org/x/text/unicode/bidi
+#20 11.72 mime/quotedprintable
+#20 11.82 net/http/internal
+#20 11.82 golang.org/x/net/html
+#20 11.92 debug/dwarf
+#20 12.12 encoding/csv
+#20 12.21 github.com/gabriel-vasile/mimetype/internal/json
+#20 12.22 golang.org/x/text/internal/language
+#20 12.32 github.com/pelletier/go-toml/v2/internal/danger
+#20 12.42 compress/gzip
+#20 12.52 compress/zlib
+#20 12.62 github.com/pelletier/go-toml/v2/unstable
+#20 12.82 encoding/gob
+#20 12.93 go/token
+#20 13.02 text/template/parse
+#20 13.12 google.golang.org/protobuf/internal/errors
+#20 13.22 gopkg.in/yaml.v3
+#20 13.42 github.com/mattn/go-isatty
+#20 13.51 google.golang.org/protobuf/encoding/protowire
+#20 13.72 vendor/golang.org/x/text/secure/bidirule
+#20 13.82 golang.org/x/text/unicode/bidi
+#20 13.91 golang.org/x/text/unicode/norm
+#20 14.22 golang.org/x/net/http2/hpack
+#20 14.23 github.com/pelletier/go-toml/v2/internal/tracker
+#20 14.42 google.golang.org/protobuf/reflect/protoreflect
+#20 15.22 github.com/joho/godotenv
+#20 15.41 vendor/golang.org/x/net/idna
+#20 15.62 golang.org/x/text/internal/language/compact
+#20 16.01 golang.org/x/text/secure/bidirule
+#20 16.22 debug/macho
+#20 16.22 github.com/gin-gonic/gin/internal/json
+#20 16.31 github.com/go-playground/universal-translator
+#20 16.31 github.com/leodido/go-urn
+#20 16.31 github.com/pelletier/go-toml/v2
+#20 16.31 crypto/elliptic
+#20 16.31 crypto/internal/boring/bbig
+#20 16.42 encoding/asn1
+#20 16.42 github.com/gabriel-vasile/mimetype/internal/charset
+#20 16.52 crypto/rand
+#20 16.53 crypto/dsa
+#20 16.82 golang.org/x/text/language
+#20 16.82 crypto/ed25519
+#20 16.82 crypto/internal/hpke
+#20 17.02 crypto/rsa
+#20 17.22 text/template
+#20 17.92 github.com/gabriel-vasile/mimetype/internal/magic
+#20 18.02 vendor/golang.org/x/net/http/httpproxy
+#20 18.02 net/textproto
+#20 18.22 google.golang.org/protobuf/internal/strs
+#20 18.22 google.golang.org/protobuf/internal/genid
+#20 18.32 google.golang.org/protobuf/internal/order
+#20 18.32 google.golang.org/protobuf/internal/encoding/messageset
+#20 18.62 google.golang.org/protobuf/runtime/protoiface
+#20 18.72 crypto/x509/pkix
+#20 18.72 vendor/golang.org/x/crypto/cryptobyte
+#20 18.82 golang.org/x/net/idna
+#20 18.82 google.golang.org/protobuf/reflect/protoregistry
+#20 19.32 mime/multipart
+#20 19.32 vendor/golang.org/x/net/http/httpguts
+#20 19.52 google.golang.org/protobuf/proto
+#20 19.82 crypto/ecdsa
+#20 19.92 github.com/gabriel-vasile/mimetype
+#20 20.02 golang.org/x/net/http/httpguts
+#20 20.12 html/template
+#20 20.41 github.com/go-playground/validator/v10
+#20 20.42 crypto/x509
+#20 21.24 crypto/tls
+#20 22.22 net/http/httptrace
+#20 22.25 net/http
+#20 23.81 github.com/gin-contrib/sse
+#20 23.81 net/rpc
+#20 23.81 net/http/httputil
+#20 23.81 golang.org/x/net/http2
+#20 24.16 github.com/ugorji/go/codec
+#20 24.87 golang.org/x/net/http2/h2c
+#20 26.39 github.com/gin-gonic/gin/binding
+#20 26.39 github.com/gin-gonic/gin/render
+#20 26.52 github.com/gin-gonic/gin
+#20 26.82 futbol912.com/cmd/api
+#20 DONE 27.4s
+#21 [stage-1  2/11] RUN apk --no-cache add ca-certificates
+#21 CACHED
+#22 [stage-1  3/11] WORKDIR /root/
+#22 sha256:baea8b18b94d476408846374f477769361866e329ac226ce8e4864bdce0e97e6 282.44kB / 282.44kB done
+#22 extracting sha256:baea8b18b94d476408846374f477769361866e329ac226ce8e4864bdce0e97e6
+#22 extracting sha256:baea8b18b94d476408846374f477769361866e329ac226ce8e4864bdce0e97e6 0.1s done
+#22 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+#22 CACHED
+#23 [stage-1  4/11] COPY --from=builder /app/main .
+#23 DONE 0.1s
+#24 [stage-1  5/11] RUN mkdir -p cmd/scrape_bundesliga cmd/scrape_laliga cmd/scrape_ligue1 cmd/scrape_premier cmd/scrape_seriea
+#24 DONE 0.1s
+#25 [stage-1  6/11] COPY --from=builder /app/*.json ./
+#25 DONE 0.0s
+#26 [stage-1  7/11] COPY --from=builder /app/cmd/scrape_bundesliga/*.json ./cmd/scrape_bundesliga/
+#26 DONE 0.0s
+#27 [stage-1  8/11] COPY --from=builder /app/cmd/scrape_laliga/*.json ./cmd/scrape_laliga/
+#27 DONE 0.0s
+#28 [stage-1  9/11] COPY --from=builder /app/cmd/scrape_ligue1/*.json ./cmd/scrape_ligue1/
+#28 DONE 0.0s
+#29 [stage-1 10/11] COPY --from=builder /app/cmd/scrape_premier/*.json ./cmd/scrape_premier/
+#29 DONE 0.0s
+#30 [stage-1 11/11] COPY --from=builder /app/cmd/scrape_seriea/*.json ./cmd/scrape_seriea/
+#30 DONE 0.1s
+#31 exporting to docker image format
+#31 exporting layers
+#31 exporting layers 0.6s done
+#31 exporting manifest sha256:f1bb670ab8eeffe743aeee4af40d135bd1584aa649bb69baf7077551ccbacd8a 0.0s done
+#31 exporting config sha256:3f6d25a93d4b255910e494aefa8d484f495bc4e7af9a8d7a6f8c2d210354b21d 0.0s done
+#31 DONE 0.7s
+#32 exporting cache to client directory
+#32 preparing build cache for export
+#32 writing cache manifest sha256:e64acfb65c7062227a324d83a556190e0efd845b04a6a235c7a9b432b929c259 done
+#32 DONE 5.3s
+Pushing image to registry...
+Upload succeeded
+==> Deploying...
+2025/09/03 20:00:13 Warning: No .env file found, using default values
+Using data dir: cmd/scrape_laliga
+Using data dir: cmd/scrape_premier
+Using data dir: cmd/scrape_seriea
+Using data dir: cmd/scrape_ligue1
+Using data dir: cmd/scrape_bundesliga
+API server listening on :8080
+[GIN] 2025/09/03 - 20:00:18 | 404 |         2.3µs |             ::1 | HEAD     "/"
+==> Your service is live 🎉
+==> 
+==> ///////////////////////////////////////////////////////////
+==> 
+==> Available at your primary URL https://go-quiz-fulbo.onrender.com
+==> 
+==> ///////////////////////////////////////////////////////////
+[GIN] 2025/09/03 - 20:00:23 | 200 |     135.223µs |    35.230.74.10 | GET      "/"
+[GIN] 2025/09/03 - 20:00:28 | 200 |      37.901µs |  190.18.154.182 | GET      "/"
+[GIN] 2025/09/03 - 20:00:44 | 404 |     118.243µs |  190.18.154.182 | GET      "/api/quiz/questions"
+[GIN] 2025/09/03 - 20:00:59 | 404 |      46.552µs |  190.18.154.182 | GET      "/api/quiz/questions"
+[GIN] 2025/09/03 - 20:01:00 | 404 |      65.112µs |  190.18.154.182 | GET      "/api/quiz/questions"
+[GIN] 2025/09/03 - 20:01:06 | 404 |      40.211µs |  190.18.154.182 | GET      "/api/quiz/questions?count=10"
+[GIN] 2025/09/03 - 20:01:08 | 404 |       36.61µs |  190.18.154.182 | GET      "/api/quiz/questions?count=10"
+[GIN] 2025/09/03 - 20:01:08 | 404 |      41.021µs |  190.18.154.182 | GET      "/api/quiz/questions?count=10"
+[GIN] 2025/09/03 - 20:01:09 | 404 |     102.323µs |  190.18.154.182 | GET      "/api/quiz/questions?count=10"
