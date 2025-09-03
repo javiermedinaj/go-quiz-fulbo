@@ -9,12 +9,6 @@ interface QuizQuestion {
   };
 }
 
-interface QuestionsResponse {
-  total: number;
-  returned: number;
-  questions: QuizQuestion[];
-}
-
 const Questions: React.FC = () => {
   const navigate = useNavigate();
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
